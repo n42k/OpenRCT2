@@ -15,3 +15,6 @@ Having its roots in the hands of a single person, it probably didn't start with 
 ### Opinions, critics and alternatives
 Put opinions, critics and alternatives about the described development process.
 
+TODO:
+	Whether the project was started with the idea of making it by himself.
+	Why the project was started.
