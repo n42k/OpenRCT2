@@ -1,10 +1,12 @@
-# Possible topics to discuss
+# Software Processes in OpenRCT2
 
-## Current development
-* Continuous Integration
-* Agile
+## Brief description
+Put description here...
 
-## Earlier development
-* Reverse Engineering
-* Reversal of usual software development processes
-* Regression Testing
+## Development Process
+### Brief description
+Put a brief description of the development process in OpenRCT2 here.
+
+### Opinions, critics and alternatives
+Put opinions, critics and alternatives about the described development process.
+
