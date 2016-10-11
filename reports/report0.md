@@ -17,6 +17,8 @@ Periodicamente, são lançadas versões do jogo com os vários updates feitos.
 ### Opinions, critics and alternatives
 Por, inicialmente, o projeto ser de apenas uma pessoa, não existia necessidade de comentar o código em grande quantidade, sendo que atualmente, com o aumento dos colaboradores, este aspeto é uma desvantagem. Apenas 7% do código é comentado. Um alto número de comentários pode ser indicador de um código bem estruturado e organizado e, por sua vez, melhora a interpretação de toda a equipa de desenvolvimento.
 
+According to the statistics, over the past twelve months, 130 developers contributed new code to OpenRCT2.So,that means the project is getting more and more interesting for open source community.Although, there isnt any project planning yet and makes it harder for new contributors since they dont know where exactly they should start by.
+
 TODO:
 	Whether the project was started with the idea of making it by himself.
 	Why the project was started.
