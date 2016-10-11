@@ -6,6 +6,8 @@ It was started in 2014 by a single person, Ted "IntelOrca" John, with the intent
 At the time of writing, it has 142 contributors.
 The core language is C and it was painfully reverse engineered from the original game executable.
 
+![alt tag](https://github.com/n42k/OpenRCT2/blob/develop/reports/Images/Languages Graphical1.png)
+
 ## Development Process
 ### Initial development
 Having its roots in the hands of a single person, it probably didn't start with a specific development process. However, it was reverse engineered from the original game executable in an interesting way: a single function was re-implemented from the executable at a time and, by use of regression testing against the original game, tested to make sure it does what it's supposed to do.
