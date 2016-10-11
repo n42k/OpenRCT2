@@ -18,9 +18,10 @@ Having its roots in the hands of a single person, it probably didn't start with 
 Atualmente, existem diversos colaboradores para a evolução do projeto sendo que o fundador continua a ser o maior contribuidor. Os colaboradores juntam-se numa plataforma de chat para trocar ideias sobre o jogo em si e sobre as possíveis melhorias para o jogo.
 Periodicamente, são lançadas versões do jogo com os vários updates feitos.
 
+O projeto usa o fluxo de trabalho (workflow) denominado de gitflow. O gitflow disponibiliza um vasto conjunto de novos comandos nos quais, cada um deles executam um conjunto de tarefas numa ordem predefinida. Este workflow não substitui o git. É apenas um conjunto de scripts que combinam os comandos standard do git de maneira inteligente. É possível usar os comandos do git, com a ordem e parâmetros corretos, de forma a seguir um fluxo de trabalho específico. Todavia usando os scripts do gitflow não é necessário memorizar todos estes comandos, parâmetros e ordem.
+
 ### Opinions, critics and alternatives
 Por, inicialmente, o projeto ser de apenas uma pessoa, não existia necessidade de comentar o código em grande quantidade, sendo que atualmente, com o aumento dos colaboradores, este aspeto é uma desvantagem. Apenas 7% do código é comentado. Um alto número de comentários pode ser indicador de um código bem estruturado e organizado e, por sua vez, melhora a interpretação de toda a equipa de desenvolvimento. 
-O projeto usa o fluxo de trabalho (workflow) denominado de gitflow. O gitflow disponibiliza um vasto conjunto de novos comandos nos quais, cada um deles executam um conjunto de tarefas numa ordem predefinida. Este workflow não substitui o git. É apenas um conjunto de scripts que combinam os comandos standard do git de maneira inteligente. É possível usar os comandos do git, com a ordem e parâmetros corretos, de forma a seguir um fluxo de trabalho específico. Todavia usando os scripts do gitflow não é necessário memorizar todos estes comandos, parâmetros e ordem.
 
 According to the statistics, over the past twelve months, 130 developers contributed new code to OpenRCT2. So, that means the project is getting more and more interesting for open source community. Although, there isn't any project planning yet and makes it harder for new contributors since they don't know where exactly they should start by.
 Also, having a decent planning leads to a significant increase of efficiency of everyone working on the project. But why? Well, highlighting the most important, we got the following:
@@ -29,6 +30,7 @@ Also, having a decent planning leads to a significant increase of efficiency of 
 * Work getting tracked over time (such as progress, time cost, etc);
 * Guide the work in order to know exactly what to do next.
 By now it should be clear why we must follow some planning.
+
 
 TODO:
 	Whether the project was started with the idea of making it by himself.
