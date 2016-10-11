@@ -7,7 +7,7 @@ At the time of writing, it has 142 contributors.
 The core language is C and it was painfully reverse engineered from the original game executable.
 
 ![alt tag](https://github.com/n42k/OpenRCT2/blob/develop/reports/Images/Languages Graphical1.png)
-![alt tag](https://github.com/n42k/OpenRCT2/blob/develop/reports/Images/Languages Description.png)
+![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/1.png)
 **Fig1-** Graphic representing lines of code per language used in project. 
 
 ## Development Process
