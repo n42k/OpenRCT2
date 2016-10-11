@@ -7,8 +7,10 @@ At the time of writing, it has 142 contributors.
 The core language is C and it was painfully reverse engineered from the original game executable.
 
 ## Development Process
-### Brief description
-Put a brief description of the development process in OpenRCT2 here.
+### Initial development
+Having its roots in the hands of a single person, it probably didn't start with a specific development process. However, it was reverse engineered from the original game executable in an interesting way: a single function was re-implemented from the executable at a time and, by use of regression testing against the original game, tested to make sure it does what it's supposed to do.
+
+### Current development
 
 ### Opinions, critics and alternatives
 Put opinions, critics and alternatives about the described development process.
