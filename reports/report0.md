@@ -1,7 +1,9 @@
 # Software Processes in OpenRCT2
 
 ## Brief description
-Put description here...
+OpenRCT2 is an open source re-implementation of the RCT2 (RollerCoaster Tycoon 2) game. RCT2 is an amusement park construction and management simulation computer game.
+It was started in 2014 by a single person, Ted "IntelOrca" John, and, at the time of writing, has 142 contributors.
+The core language is C and it was painfully reverse engineered from the original game executable.
 
 ## Development Process
 ### Brief description
