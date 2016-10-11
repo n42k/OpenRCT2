@@ -12,6 +12,7 @@ Having its roots in the hands of a single person, it probably didn't start with 
 
 ### Current development
 Atualmente, existem diversos colaboradores para a evolução do projeto sendo que o fundador continua a ser o maior contribuidor. Os contribuidores juntam-se numa plataforma de chat para trocar ideias sobre o jogo em si e sobre os possíveis melhorias para o jogo.
+Periodicamente, são lançadas versões do jogo com os vários updates feitos.
 
 ### Opinions, critics and alternatives
 Put opinions, critics and alternatives about the described development process.
