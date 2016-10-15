@@ -31,8 +31,14 @@ Also, having a decent planning leads to a significant increase of efficiency of 
 * Guide the work in order to know exactly what to do next.
 By now it should be clear why we must follow some planning.
 
+### Contributions
+All 4 group members have contributed evenly to the report:
+João 'TUTAMKHAMON' Ferreira.
+Jorge 'Jorge2210' Ferreira.
+Pedro 'n42k' Amaro.
+Pedro 'Oshnira' Lima.
 
-TODO:
+### TODO:
 	Whether the project was started with the idea of making it by himself.
 	Why the project was started.
 	Is there any development process?
