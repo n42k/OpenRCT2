@@ -3,8 +3,8 @@
 ## Index
 1. [Brief description](#brief)
 2. [Development Process](#development_process)
-2.1. [Initial development](#initial_development)
-2.2 [Current development](#current_development)
+1. [Initial development](#initial_development)
+2. [Current development](#current_development)
 3. [Opinions, critics and alternatives](#opinions)
 
 ## Brief description <a name="brief"></a>
