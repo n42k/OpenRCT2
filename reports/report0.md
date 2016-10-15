@@ -15,10 +15,10 @@ The core language is C and it was painfully reverse engineered from the original
 Having its roots in the hands of a single person, it probably didn't start with a specific development process. However, it was reverse engineered from the original game executable in an interesting way: a single function was re-implemented from the executable at a time and, by use of regression testing against the original game, tested to make sure it does what it's supposed to do.
 
 ### Current development
-Atualmente, existem diversos colaboradores para a evolução do projeto sendo que o fundador continua a ser o maior contribuidor. Os colaboradores juntam-se numa plataforma de chat para trocar ideias sobre o jogo em si e sobre as possíveis melhorias para o jogo.
-Periodicamente, são lançadas versões do jogo com os vários updates feitos.
+At the current time, there are many collaborators for the project's evolution, even though the founder continues to be the largest contributor. The contributors join together in a chatroom (gitter.im) to exchange ideas about the project itself and the various improvements that can be done to it.
+Periodically, new stable releases are launched, with several updates and bugfixes.
 
-O projeto usa o fluxo de trabalho (workflow) denominado de gitflow. O gitflow disponibiliza um vasto conjunto de novos comandos nos quais, cada um deles executam um conjunto de tarefas numa ordem predefinida. Este workflow não substitui o git. É apenas um conjunto de scripts que combinam os comandos standard do git de maneira inteligente. É possível usar os comandos do git, com a ordem e parâmetros corretos, de forma a seguir um fluxo de trabalho específico. Todavia usando os scripts do gitflow não é necessário memorizar todos estes comandos, parâmetros e ordem.
+The project uses the gitflow workflow. It's centered around the use of a vast set of new commands, each executing a group of tasks in a predefined order. This does not replace git, it's only a set of scripts that use the standard git commands in a smart way. It's possible to use the standard git commands, in the correct order and with the right arguments, to follow a specific workflow. However, using gitflow it is not necessary to memorize these.
 
 ### Opinions, critics and alternatives
 Por, inicialmente, o projeto ser de apenas uma pessoa, não existia necessidade de comentar o código em grande quantidade, sendo que atualmente, com o aumento dos colaboradores, este aspeto é uma desvantagem. Apenas 7% do código é comentado. Um alto número de comentários pode ser indicador de um código bem estruturado e organizado e, por sua vez, melhora a interpretação de toda a equipa de desenvolvimento. 
