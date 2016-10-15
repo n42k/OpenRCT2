@@ -20,7 +20,7 @@ Periodically, new stable releases are launched, with several updates and bugfixe
 
 The project uses the gitflow workflow. It's centered around the use of a vast set of new commands, each executing a group of tasks in a predefined order. This does not replace git, it's only a set of scripts that use the standard git commands in a smart way. It's possible to use the standard git commands, in the correct order and with the right arguments, to follow a specific workflow. However, using gitflow it is not necessary to memorize these.
 
-### Opinions, critics and alternatives
+## Opinions, critics and alternatives
 Por, inicialmente, o projeto ser de apenas uma pessoa, não existia necessidade de comentar o código em grande quantidade, sendo que atualmente, com o aumento dos colaboradores, este aspeto é uma desvantagem. Apenas 7% do código é comentado. Um alto número de comentários pode ser indicador de um código bem estruturado e organizado e, por sua vez, melhora a interpretação de toda a equipa de desenvolvimento. 
 
 According to the statistics, over the past twelve months, 130 developers contributed new code to OpenRCT2. So, that means the project is getting more and more interesting for open source community. Although, there isn't any project planning yet and makes it harder for new contributors since they don't know where exactly they should start by.
@@ -31,7 +31,7 @@ Also, having a decent planning leads to a significant increase of efficiency of 
 * Guide the work in order to know exactly what to do next.
 By now it should be clear why we must follow some planning.
 
-### Contributions
+## Contributions
 All 4 group members have contributed evenly to the report:
 
 * João 'TUTAMKHAMON' Ferreira.
