@@ -33,18 +33,15 @@ At the time of writing, the project is hosted on GitHub under GPLv3 license and 
 Having its roots in the hands of a single person, it probably didn't start with a specific development process. However, it was reverse engineered *(1)* from the original game executable in an interesting way: a single function was re-implemented from the executable at a time and, by use of regression testing against the original game, tested to make sure it does what it's supposed to do.
 
 
-*(1)*  It can also be seen as "going backwards through the development cycle". The output of the implementation phase (in source code form) is reverse-engineered back to the analysis phase, in an inversion of the traditional waterfall model.
+*(1)* Reverse engineering is the process of collecting information about an object as to check/understand its functionality. In software, reverse engineering is the act of reverting the machine code of a program back to its source code form with either of the following objectives:
+* Study how a program works;
+* The original source code was lost and we want to recover it;
+* Boost a program's performance;
+* Correct eventual bugs;
+* Identify malicious code on a program;
+* Improve it's portability.
 
-Engenharia reversa é o processo de recolha de informação acerca de um objeto para verificar a sua funcionalidade. No ambito do software, 
-a engenharia reversa é o acto de reverter o código máquina de um programa no seu código fonte com os seguintes objetivos:
-. Porque o código fonte foi eventualmente perdido;
-. Estudar como o programa funciona;
-. Aumentar o desempenho do programa;
-. Corrigir eventuais bugs;
-. Identificar código malicioso num programa;
-. Aumentar a sua compatibilidade.
-
-No caso do OpenRCT2, verificam-se a maior parte dos pontos anteriormente referidos.
+*In the OpenRCT2 project most of these apply.*
 
 
 ### Current development <a name="current_development"></a>
