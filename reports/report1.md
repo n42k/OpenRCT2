@@ -8,20 +8,20 @@
 3. [Opinions, critics and alternatives](#opinions)
 
 ## Brief description <a name="brief"></a>
-RollerCoaster Tycoon 2 (RCT2) was a construction and management simulation computer game lauched in 2002 where you played as an amusement park manager. Over the years the official game support finally got to an end which prompted the arise of a fan-made project, led by Ted 'IntelOrca' John, with the intent of reverse engineering the original RCT2 executable.
+RollerCoaster Tycoon 2 (RCT2) was a construction and management simulation computer game lauched in 2002 where you play as an amusement park manager. Eventually, the official game's support reached an end which prompted the rise of a fan-made project, led by Ted 'IntelOrca' John, with the intent of reverse engineering the original RCT2 executable.
 The OpenRCT2 project was then launched in April 2014 with the set goals of:
 * Porting the game into platform independent C source code, making the game available to more platforms;
-* Fix [bugs][1] the lasted over the years on the no longer supported game;
+* Fix [bugs][1] that lasted over the years in the original implementation;
 * Add [translations][2] to the game's user interface;
-* Add support for higher resolution to accommodate for nowadays technology;
+* Add support for higher resolution to accommodate today's technology;
 * Add online multiplayer functionality;
-* And other minor [features][3] like simulation speed increase and twitch integration...
+* And other minor [features][3] like simulation speed increase and twitch integration.
 
 [1]: https://github.com/OpenRCT2/OpenRCT2/wiki/Found-bugs-and-limitations-in-RCT2
 [2]: https://github.com/OpenRCT2/OpenRCT2/wiki/Language-support
 [3]: http://openrct2.org/features
 
-At the time of writing, the project is hosted on GitHub under GPLv3 license and requires the original game files to run (mainly resources and content). It's core language is C, with some bits of C++ along the way, and it has accumulated 142 contributors and almost 10,000 commits along the years.
+At the time of writing, the project is hosted on GitHub under the GPLv3 license and requires the original game files to run (mainly resources and content). Its core language is C, with some bits of C++ along the way, and it has accumulated 142 contributors and almost 10,000 commits along the years.
 
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/lines_of_code_by_language_over_time.png)
 **Fig1-** Lines of code per language over time graph.
@@ -31,25 +31,25 @@ At the time of writing, the project is hosted on GitHub under GPLv3 license and 
 
 ## Development Process <a name="development_process"></a>
 ### Initial development <a name="initial_development"></a>
-Having its roots in the hands of a single person, it didn't start with a specific development process. However, it was reverse engineered *(1)* from the original game executable in an interesting way: a single function was re-implemented from the executable at a time and, by use of regression testing against the original game, tested to make sure it does what it's supposed to do.
+Having its roots in the hands of a single person, it most likely didn't start with a specific development process. However, it was reverse engineered *(1)* from the original game executable in an interesting way: a single function was re-implemented from the executable at a time and, by use of regression testing against the original game, tested together with the original game's functions to make sure its functionality is exactly equal. This way, after implementing all functions correctly, we should have a perfect standalone executable.
 
 
-*(1)* Reverse engineering is the process of collecting information about an object as to check/understand its functionality. In software, reverse engineering is the act of reverting the machine code of a program back to its source code form with either of the following objectives:
+*(1)* Reverse engineering is the act of reverting the machine code of a program back to its source code form with either of the following objectives:
 * Study how a program works;
 * The original source code was lost and we want to recover it;
 * Boost a program's performance;
 * Correct eventual bugs;
 * Identify malicious code on a program;
-* Improve it's portability.
+* Improve its portability.
 
 *In the OpenRCT2 project most of these apply.*
 
 
 ### Current development <a name="current_development"></a>
-At the current time, there are many collaborators for the project's evolution, even though the founder continues to be the largest contributor. The contributors join together in a chatroom (gitter.im) to exchange ideas about the project itself and the various improvements that can be done to it.
+At the current time, there are many collaborators in the project, even though the founder continues to be the largest contributor. The contributors join together in a chatroom ([gitter.im](https://gitter.im/OpenRCT2/OpenRCT2)) to exchange ideas about the project itself and the various improvements that can be done to it.
 Periodically, new stable releases are launched, with several updates and bugfixes.
 
-The project uses the gitflow workflow. It's centered around the use of a vast set of new commands, each executing a group of tasks in a predefined order. This does not replace git, it's only a set of scripts that use the standard git commands in a smart way. It's possible to use the standard git commands, in the correct order and with the right arguments, to follow a specific workflow. However, using gitflow it is not necessary to memorize these.
+The project uses the gitflow workflow. It's centered around the use of a vast set of new commands, each executing a group of tasks in a predefined order. This does not replace git, it's only a set of scripts that use the standard git commands in a smart way. It's possible to use the standard git commands, in the correct order and with the right arguments, to follow a specific workflow. However, using gitflow it's not necessary to memorize these.
 
 ## Opinions, critics and alternatives <a name="opinions"></a>
 Initially, the project was started by a single person. This is not necessarily a bad thing. However, compared to other C projects, which have 19% of all source code lines as comments, OpenRCT2 has 7%, which could mean that the code isn't well-documented and organized, according to [openhub](https://www.openhub.net/p/OpenRCT2/factoids#FactoidCommentsVeryLow).
@@ -60,7 +60,7 @@ This might prove as a barrier to entry for new developers. There might also be a
 
 **Fig3-** Lines of code by author graph, generated by the program 'gitstats'.
 
-As we can see in the graph, it's clear that most of the contributions have been done by a single person, who goes by 2 usernames: "Ted John" and "IntelOrca". Despite this, we can see that the situation has improved: the number of authors who have made a significant contribution in terms of lines of code has been steadily rising the past year, which is a good sign. A total of 130 developers have contributed code to OpenRCT2 in the last year, which shows interest by the open source community in developing it further.
+As we can see in the graph, it's clear that most of the contributions have been done by a single person, who goes by 2 usernames: "Ted John" and "IntelOrca". Despite this, we can see that the situation has improved: the number of authors who have made a significant contribution in terms of lines of code has been steadily rising the past year, which is a good sign.
 
 It's clear there's a low amount of project planning, which makes it harder for new developers to contribute, as it's hard to know where to get started.
 Moreover, planning development better leads to a significant increase of the efficiency of individual contributors. This can be achieved by improving the following areas:
@@ -69,7 +69,7 @@ Moreover, planning development better leads to a significant increase of the eff
 * Work getting tracked over time (such as progress, time cost, etc);
 * Guiding the work in order to know exactly what to do next.
 
-In the end, having a good software development process is essential to manage a project of such a size well, allowing the members of teams of a larger size to collaborate better, especially in the open-source world, where a low barrier to entry is especially important.
+In the end, having a good software development process is essential to manage a project of such a size well, allowing the members of teams of a larger size to collaborate better, especially in the open-source world, where a low barrier to entry is especially important to obtain more contributors.
 
 ## Contributions
 All 4 group members have contributed evenly to the report:
