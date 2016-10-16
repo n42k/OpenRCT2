@@ -8,10 +8,20 @@
 3. [Opinions, critics and alternatives](#opinions)
 
 ## Brief description <a name="brief"></a>
-OpenRCT2 is an open source re-implementation of the RCT2 (RollerCoaster Tycoon 2) game. RCT2 is an amusement park construction and management simulation computer game.
-It was started in 2014 by a single person, Ted "IntelOrca" John, with the intent of modernizing upon the original game as well as porting it to other operating systems.
-At the time of writing, it has 142 contributors with approximately 10,939 commits.
-The core language is C and it was painfully reverse engineered from the original game executable.
+RollerCoaster Tycoon 2 (RCT2) was a construction and management simulation computer game lauched in 2002 where you played as an amusement park manager. Over the years the official game support finally got to an end which prompted the arise of a fan-made project, led by Ted 'IntelOrca' John, with the intent of reverse engineering the original RCT2 executable. 
+The OpenRCT2 project was then launched in April 2014 with the set goals of:
+* Porting the game into platform independent C source code, making the game available to more platforms;
+* Fix [bugs][1] the lasted over the years on the no longer supported game;
+* Add [translations][2] to the game's user interface;
+* Add support for higher resolution to accommodate for nowadays technology;
+* Add online multiplayer functionality;
+* And other minor [features][3] like simulation speed increase and twitch integration...
+
+[1]: https://github.com/OpenRCT2/OpenRCT2/wiki/Found-bugs-and-limitations-in-RCT2
+[2]: https://github.com/OpenRCT2/OpenRCT2/wiki/Language-support
+[3]: http://openrct2.org/features
+
+At the time of writing, the project is hosted on GitHub under GPLv3 license and requires the original game files to run (mainly resources and content). It's core language is C, with some bits of C++ along the way, and it has accumulated 142 contributors and approximately 11,000 commits along the years.
 
 ![alt tag](https://github.com/n42k/OpenRCT2/blob/783b5911df1de6a34f0d7713f8033c74a9e8b654/reports/Images/Languages%20Graphical1.png)
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/1.png)
