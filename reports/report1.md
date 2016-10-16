@@ -8,7 +8,7 @@
 3. [Opinions, critics and alternatives](#opinions)
 
 ## Brief description <a name="brief"></a>
-RollerCoaster Tycoon 2 (RCT2) was a construction and management simulation computer game lauched in 2002 where you played as an amusement park manager. Over the years the official game support finally got to an end which prompted the arise of a fan-made project, led by Ted 'IntelOrca' John, with the intent of reverse engineering the original RCT2 executable. 
+RollerCoaster Tycoon 2 (RCT2) was a construction and management simulation computer game lauched in 2002 where you played as an amusement park manager. Over the years the official game support finally got to an end which prompted the arise of a fan-made project, led by Ted 'IntelOrca' John, with the intent of reverse engineering the original RCT2 executable.
 The OpenRCT2 project was then launched in April 2014 with the set goals of:
 * Porting the game into platform independent C source code, making the game available to more platforms;
 * Fix [bugs][1] the lasted over the years on the no longer supported game;
@@ -42,7 +42,14 @@ Periodically, new stable releases are launched, with several updates and bugfixe
 The project uses the gitflow workflow. It's centered around the use of a vast set of new commands, each executing a group of tasks in a predefined order. This does not replace git, it's only a set of scripts that use the standard git commands in a smart way. It's possible to use the standard git commands, in the correct order and with the right arguments, to follow a specific workflow. However, using gitflow it is not necessary to memorize these.
 
 ## Opinions, critics and alternatives <a name="opinions"></a>
-Since initially the project was run by a single person there was no need to mass comment the code, making it a disadvantage now that the amount of collaborators has increased. Only about 7% of lines are comments. A higher comment count could be an indicator of well structured and organized code, and in turn, helps everyone involved to better understand the code.
+Initially, the project was started by a single person. This is not necessarily a bad thing. However, compared to other C projects, which have 19% of all source code lines as comments, OpenRCT2 has 7%, which could mean that the code isn't well-documented and organized, according to [openhub](https://www.openhub.net/p/OpenRCT2/factoids#FactoidCommentsVeryLow).
+
+This might prove as a barrier to entry for new developers, and this can be verified, either for lack of interest or, in this case, the difficulty of joining the project in the following graph, generated with the program 'gitstats':
+
+![alt tag](Images/lines_of_code_by_author.png)
+**Fig3-** Lines of code by author graph.
+
+
 
 According to the statistics, over the past twelve months, 130 developers contributed new code to OpenRCT2. So, that means the project is getting more and more interesting for open source community. Although, there isn't any project planning yet and makes it harder for new contributors since they don't know where exactly they should start by.
 Also, having a decent planning leads to a significant increase of efficiency of everyone working on the project. But why? Well, highlighting the most important, we got the following:
