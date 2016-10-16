@@ -13,7 +13,7 @@ The OpenRCT2 project was then launched in April 2014 with the set goals of:
 * Porting the game into platform independent C source code, making the game available to more platforms;
 * Fix [bugs][1] that lasted over the years in the original implementation;
 * Add [translations][2] to the game's user interface;
-* Add support for higher resolution to accommodate today's technology;
+* Add support for higher resolution to accommodate for today's technology;
 * Add online multiplayer functionality;
 * And other minor [features][3] like simulation speed increase and twitch integration.
 
