@@ -78,6 +78,3 @@ All 4 group members have contributed evenly to the report:
 * Jorge 'Jorge2210' Ferreira.
 * Pedro 'n42k' Amaro.
 * Pedro 'Oshnira' Lima.
-
-### TODO:
-	Is there any development process?
