@@ -35,6 +35,18 @@ Having its roots in the hands of a single person, it probably didn't start with 
 
 *(1)*  It can also be seen as "going backwards through the development cycle". The output of the implementation phase (in source code form) is reverse-engineered back to the analysis phase, in an inversion of the traditional waterfall model.
 
+Engenharia reversa é o processo de recolha de informação acerca de um objeto para verificar a sua funcionalidade. No ambito do software, 
+a engenharia reversa é o acto de reverter o código máquina de um programa no seu código fonte com os seguintes objetivos:
+. Porque o código fonte foi eventualmente perdido;
+. Estudar como o programa funciona;
+. Aumentar o desempenho do programa;
+. Corrigir eventuais bugs;
+. Identificar código malicioso num programa;
+. Aumentar a sua compatibilidade.
+
+No caso do OpenRCT2, verificam-se a maior parte dos pontos anteriormente referidos.
+
+
 ### Current development <a name="current_development"></a>
 At the current time, there are many collaborators for the project's evolution, even though the founder continues to be the largest contributor. The contributors join together in a chatroom (gitter.im) to exchange ideas about the project itself and the various improvements that can be done to it.
 Periodically, new stable releases are launched, with several updates and bugfixes.
