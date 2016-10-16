@@ -60,6 +60,4 @@ All 4 group members have contributed evenly to the report:
 * Pedro 'Oshnira' Lima.
 
 ### TODO:
-	Whether the project was started with the idea of making it by himself.
-	Why the project was started.
 	Is there any development process?
