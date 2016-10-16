@@ -62,14 +62,14 @@ This might prove as a barrier to entry for new developers. There might also be a
 
 As we can see in the graph, it's clear that most of the contributions have been done by a single person, who goes by 2 usernames: "Ted John" and "IntelOrca". Despite this, we can see that the situation has improved: the number of authors who have made a significant contribution in terms of lines of code has been steadily rising the past year, which is a good sign. A total of 130 developers have contributed code to OpenRCT2 in the last year, which shows interest by the open source community in developing it further.
 
-It's clear there is a low amount of project planning, which makes it harder for new developers to contribute, as it is hard to know where to get started.
-Moreover, having decent planning leads to a significant increase of efficiency of individual contributors. This can be achieved by improving the following areas:
+It's clear there's a low amount of project planning, which makes it harder for new developers to contribute, as it's hard to know where to get started.
+Moreover, planning development better leads to a significant increase of the efficiency of individual contributors. This can be achieved by improving the following areas:
 * Coordination between contributors;
 * Good environment;
 * Work getting tracked over time (such as progress, time cost, etc);
-* Guide the work in order to know exactly what to do next.
+* Guiding the work in order to know exactly what to do next.
 
-In the end, having a good software development process is essential to manage a project of such a size well, especially in the open-source world, where a low barrier to entry is especially important.
+In the end, having a good software development process is essential to manage a project of such a size well, allowing the members of teams of a larger size to collaborate better, especially in the open-source world, where a low barrier to entry is especially important.
 
 ## Contributions
 All 4 group members have contributed evenly to the report:
