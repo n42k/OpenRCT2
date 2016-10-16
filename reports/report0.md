@@ -29,7 +29,10 @@ At the time of writing, the project is hosted on GitHub under GPLv3 license and 
 
 ## Development Process <a name="development_process"></a>
 ### Initial development <a name="initial_development"></a>
-Having its roots in the hands of a single person, it probably didn't start with a specific development process. However, it was reverse engineered from the original game executable in an interesting way: a single function was re-implemented from the executable at a time and, by use of regression testing against the original game, tested to make sure it does what it's supposed to do.
+Having its roots in the hands of a single person, it probably didn't start with a specific development process. However, it was reverse engineered *(1)* from the original game executable in an interesting way: a single function was re-implemented from the executable at a time and, by use of regression testing against the original game, tested to make sure it does what it's supposed to do.
+
+
+*(1)*  It can also be seen as "going backwards through the development cycle". The output of the implementation phase (in source code form) is reverse-engineered back to the analysis phase, in an inversion of the traditional waterfall model.
 
 ### Current development <a name="current_development"></a>
 At the current time, there are many collaborators for the project's evolution, even though the founder continues to be the largest contributor. The contributors join together in a chatroom (gitter.im) to exchange ideas about the project itself and the various improvements that can be done to it.
