@@ -1,4 +1,4 @@
-# Software Processes in OpenRCT2
+# Report 1: Software Processes in OpenRCT2
 
 ## Index
 1. [Brief description](#brief)
