@@ -25,6 +25,7 @@ At the time of writing, the project is hosted on GitHub under GPLv3 license and 
 
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/cd5004fa67ed5e11e02761288cea1c82826622c1/reports/Images/Languages%20Graphical1.png)
 **Fig1-** Lines of code per language over time graph.
+
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/1.png)
 **Fig2-** Lines of code per language graph.
 
