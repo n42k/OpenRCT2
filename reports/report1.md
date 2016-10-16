@@ -23,9 +23,10 @@ The OpenRCT2 project was then launched in April 2014 with the set goals of:
 
 At the time of writing, the project is hosted on GitHub under GPLv3 license and requires the original game files to run (mainly resources and content). It's core language is C, with some bits of C++ along the way, and it has accumulated 142 contributors and approximately 11,000 commits along the years.
 
-![alt tag](https://github.com/n42k/OpenRCT2/blob/783b5911df1de6a34f0d7713f8033c74a9e8b654/reports/Images/Languages%20Graphical1.png)
+![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/cd5004fa67ed5e11e02761288cea1c82826622c1/reports/Images/Languages%20Graphical1.png)
+**Fig1-** Lines of code per language over time graph.
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/1.png)
-**Fig1-** Graphic representing lines of code per language used in project. 
+**Fig2-** Lines of code per language graph.
 
 ## Development Process <a name="development_process"></a>
 ### Initial development <a name="initial_development"></a>
