@@ -1,7 +1,8 @@
 # ESOF Reports
 
 ## Index
-1. [Report 1](https://github.com/n42k/OpenRCT2/blob/develop/reports/report0.md)
+1. [Report 1](https://github.com/n42k/OpenRCT2/blob/develop/reports/report1.md)
+2. [Report 2](https://github.com/n42k/OpenRCT2/blob/develop/reports/report2.md)
 
 
 ## Contributions
