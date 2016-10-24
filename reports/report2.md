@@ -15,6 +15,11 @@ Requirements engineering (RE) is the process of studying custom/user expectation
 These software requirements deals with establishing the needs of stakeholders that are to be solved by software and fully describes what software will do and how it will be expected to perform.
 Requirements must be quantifiable, detailed and not ambiguous.
 
+##### Requirements Elicitation Process 
+![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/requirement_elicitation.png)
+
+**Fig1-** Requirements Elicitation Process by "TutorialsPoint".
+
 Sempre que existam por parte de colaboradores, novas ideias para o projeto, a equipa aconselha a contacta-la primeiro, porque podem já existir planos para a sua realização, ou então, porque a equipa pode já ter motivos contra a sua implementação. Ao contactar a equipa, o colaborador evita perder tempo implementando uma feature que pode não ser aceite. É possível contactar a equipa através do [gitter](https://gitter.im/OpenRCT2/OpenRCT2).
 
 ## Specific Requirements and Features<a name="specific-requirements"></a>
