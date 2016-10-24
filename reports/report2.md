@@ -34,6 +34,12 @@ Sempre que existam por parte de colaboradores, novas ideias para o projeto, a eq
  * Pressing the load a game button in the initial menu must present a dialog with a list of the saved games that the user can choose to load.
  * Pressing the multi player button must appear a list with the available servers.
  * Pressing the game tools button must present a new window with all the editing tools.
+ * Pressing the options button must present a window with the configuration of the game.
+ * Moving the mouse through the objects in the game must appear a preview of the object.
+ * The game state need to have a little menu at the top right corner.
+ * Pressing the demolition button the mouse must be able to take things from the map and must appear a window with the cost of the demolition.
+ * Pressing the adjust land button the mouse must be able to change the land height and slove, must appear a window with the cost and size of the land change.
+ * ...
 
 ### Non-Functional requirements
 #### User requirements
