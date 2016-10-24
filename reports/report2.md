@@ -20,7 +20,7 @@ Sempre que existam por parte de colaboradores, novas ideias para o projeto, a eq
 ## Specific Requirements and Features<a name="specific-requirements"></a>
 ### Functional requirements
 #### User requirements
- * There must be an initial menu that the user can interact with to start a new game, load a game, start a multiplayer game or access the game tools menu.
+ * There must be an initial menu that the user can interact with to start a new game, load a game, start a multi player game or access the game tools menu.
  * Pressing the start a new game button must present a dialog with a set of parks to play on, with varying degrees of difficulties.
  * Pressing the load a game button must present a dialog with a list of the saved games that the user can choose to load.
 
