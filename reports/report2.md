@@ -28,6 +28,13 @@ According to developers, openRCT2 attempts to provide everything from RollerCoas
 
 Sempre que existam por parte de colaboradores, novas ideias para o projeto, a equipa aconselha a contacta-la primeiro, porque podem já existir planos para a sua realização, ou então, porque a equipa pode já ter motivos contra a sua implementação. Ao contactar a equipa, o colaborador evita perder tempo implementando uma feature que pode não ser aceite. É possível contactar a equipa através do [gitter](https://gitter.im/OpenRCT2/OpenRCT2).
 
+### Importance of RE
+Requirements engineering (RE) is one of the most crucial sector in Software engineering and can influence the entire software development cycle, because errors produced at this stage, if weren't prevented or fixed, have the highest cost to fix later on. 
+The main problems are:
+* (mis)communication
+* (mis)understanding
+That's why requirements must be as much detailed as possible if we intend to avoid this problems.
+
 ## Specific Requirements and Features<a name="specific-requirements"></a>
 ### Functional requirements
 #### User requirements
@@ -48,11 +55,11 @@ Sempre que existam por parte de colaboradores, novas ideias para o projeto, a eq
 * O jogo deve estar optimizado e, por consequência, possuir um número considerável de frames per second;
 
 #### System requirements
-* Processor (CPU): Pentium III
-* System memory (RAM): 64 MB
-* Hard disk drive(HDD): 800MB
-* Video card (GPU): 8 MB of VRAM, DirectX 8.1 compatible
-* The game may run in different Operating Systems such as Windows, Unix, MacOS.
+* **Processor (CPU):** Pentium III
+* **System memory (RAM):** 64 MB
+* **Hard disk drive(HDD):** 800MB
+* **Video card (GPU):** 8 MB of VRAM, DirectX 8.1 compatible
+* **OS:** The game may run in different Operating Systems such as Windows, Unix, MacOS.
 
 ## Use Cases<a name="use-cases"></a>
 	TODO: Use Cases **including diagrams**
