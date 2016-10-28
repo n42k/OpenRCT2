@@ -72,9 +72,15 @@ That's why requirements must be as much detailed as possible if we intend to avo
 A use case is a methodology used in system analysis to identify, clarify, and organize system requirements.
 The use case is a list of actions or event steps, typically defining the interactions between a role,also know as actor, and a system to achieve a goal.
 
-**Actor-** Actor models a type of role played by an entity, not an individual user of the system, that interacts with the system . Actors are external entities such as people or other systems.
+**Actor-** Actor models a type of role played by an entity, not an individual user of the system, that interacts with the system . Actors are external entities such as people or other systems that interfaces with the developed system.
 
-**System-** 
+**Development System-** The software made, it can be an application, a game,etc.
+
+A use case (or set of use cases) has these characteristics:
+* Organizes functional requirements.
+* Models the goals of system/actor (user) interactions.
+* Records paths (called scenarios) from trigger events to goals.
+* Is multi-level, so that one use case can use the functionality of another one.
 
 ## Domain Model<a name="domain-model"></a>
 	TODO: Domain Model
@@ -85,3 +91,7 @@ The use case is a list of actions or event steps, typically defining the interac
 * Jorge 'Jorge2210' Ferreira.
 * Pedro 'n42k' Amaro.
 * Pedro 'Oshnira' Lima.
+
+## Bibliography
+Use Case explanations: *http://searchsoftwarequality.techtarget.com/definition/use-case*
+
