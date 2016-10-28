@@ -59,3 +59,10 @@ Sempre que existam por parte de colaboradores, novas ideias para o projeto, a eq
 	TODO: Use Cases **including diagrams**
 ## Domain Model<a name="domain-model"></a>
 	TODO: Domain Model
+	
+## Contributions
+
+* João 'TUTAMKHAMON' Ferreira.
+* Jorge 'Jorge2210' Ferreira.
+* Pedro 'n42k' Amaro.
+* Pedro 'Oshnira' Lima.
