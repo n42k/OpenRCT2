@@ -68,7 +68,14 @@ That's why requirements must be as much detailed as possible if we intend to avo
 * **OS:** The game may run in different Operating Systems such as Windows, Unix, MacOS.
 
 ## Use Cases<a name="use-cases"></a>
-	TODO: Use Cases **including diagrams**
+### Brief Definition
+A use case is a methodology used in system analysis to identify, clarify, and organize system requirements.
+The use case is a list of actions or event steps, typically defining the interactions between a role,also know as actor, and a system to achieve a goal.
+
+**Actor-** Actor models a type of role played by an entity, not an individual user of the system, that interacts with the system . Actors are external entities such as people or other systems.
+
+**System-** 
+
 ## Domain Model<a name="domain-model"></a>
 	TODO: Domain Model
 	
