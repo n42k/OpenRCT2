@@ -17,7 +17,7 @@ Requirements must be quantifiable, detailed and not ambiguous.
 ##### Requirements Elicitation Process 
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/requirement_elicitation.png)
 
-**Fig1-** Requirements Elicitation Process by "TutorialsPoint".
+**Fig1 -** Requirements Elicitation Process by "TutorialsPoint".
 
 * Requirements gathering - The contributors discuss with the main developers and know their expectations from the software.
 * Organizing Requirements - The contributors prioritize and arrange the requirements in order of importance, urgency and convenience.
@@ -31,9 +31,9 @@ Sempre que existam por parte de colaboradores, novas ideias para o projeto, a eq
 ### Importance of RE
 Requirements engineering (RE) is one of the most crucial sector in Software engineering and can influence the entire software development cycle, because errors produced at this stage, if weren't prevented or fixed, have the highest cost to fix later on. 
 
-![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/Errors cost.png)
+![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/Relative_cost_to_fix_an_error.png)
 
-**Fig2-** Cost of fixing errors depending on the time elapsed.
+**Fig2 -** Cost of fixing errors depending on the time elapsed by "Software Engineering Economics" book from Barry Boehm.
 
 The main problems are:
 * (mis)communication
@@ -92,15 +92,17 @@ That's why requirements must be as much detailed as possible if we intend to avo
 A use case is a methodology used in system analysis to identify, clarify, and organize system requirements.
 The use case is a list of actions or event steps, typically defining the interactions between a role,also know as actor, and a system to achieve a goal.
 
-**Actor-** Actor models a type of role played by an entity, not an individual user of the system, that interacts with the system . Actors are external entities such as people or other systems that interfaces with the developed system.
+**Actor -** Actor models a type of role played by an entity, not an individual user of the system, that interacts with the system . Actors are external entities such as people or other systems that interfaces with the developed system.
 
-**Development System-** The software made, it can be an application, a game,etc.
+**Development System -** The software made, it can be an application, a game,etc.
 
 A use case (or set of use cases) has these characteristics:
 * Organizes functional requirements.
 * Models the goals of system/actor (user) interactions.
 * Records paths (called scenarios) from trigger events to goals.
 * Is multi-level, so that one use case can use the functionality of another one.
+
+**TODO: add uml use cases diagram's**
 
 ## Domain Model<a name="domain-model"></a>
 	TODO: Domain Model
