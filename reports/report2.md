@@ -30,6 +30,11 @@ Sempre que existam por parte de colaboradores, novas ideias para o projeto, a eq
 
 ### Importance of RE
 Requirements engineering (RE) is one of the most crucial sector in Software engineering and can influence the entire software development cycle, because errors produced at this stage, if weren't prevented or fixed, have the highest cost to fix later on. 
+
+![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/Errors cost.png)
+
+**Fig2-** Cost of fixing errors depending on the time elapsed.
+
 The main problems are:
 * (mis)communication
 * (mis)understanding
