@@ -74,7 +74,7 @@ That's why requirements must be as much detailed as possible if we intend to avo
  * Pressing the zoom view the park the player can get closer to the park.
  * Choosing the rotate view 90º button the camera must change 90º clockwise.
  * Pressing the view options button the player can hide parts of the scenery.
- * Pressing the map button a window must pop-up with the park map see from above.
+ * Pressing the map button, a window must pop-up with the park map see from above.
 
 ### Non-Functional requirements
 #### User requirements
@@ -106,7 +106,6 @@ A use case (or set of use cases) has these characteristics:
 	TODO: Domain Model
 	
 ## Contributions
-
 * João 'TUTAMKHAMON' Ferreira.
 * Jorge 'Jorge2210' Ferreira.
 * Pedro 'n42k' Amaro.
@@ -114,4 +113,3 @@ A use case (or set of use cases) has these characteristics:
 
 ## Bibliography
 Use Case explanations: *http://searchsoftwarequality.techtarget.com/definition/use-case*
-
