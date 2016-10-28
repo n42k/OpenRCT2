@@ -49,8 +49,11 @@ Sempre que existam por parte de colaboradores, novas ideias para o projeto, a eq
 * O jogo deve estar optimizado e, por consequência, possuir um número considerável de frames per second;
 
 #### System requirements
-* O jogo tem de correr em vários sistemas operativos, como Windows, Unix e macOS.
-* É necessário um computador com placa gráfica para correr o jogo;
+* Processor (CPU): Pentium III
+* System memory (RAM): 64 MB
+* Hard disk drive(HDD): 800MB
+* Video card (GPU): 8 MB of VRAM, DirectX 8.1 compatible
+* The game may run in different Operating Systems such as Windows, Unix, MacOS.
 
 ## Use Cases<a name="use-cases"></a>
 	TODO: Use Cases **including diagrams**
