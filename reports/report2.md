@@ -64,9 +64,17 @@ That's why requirements must be as much detailed as possible if we intend to avo
  * Chossing the staff button a new window must appear with all the staff of the park, a option to hire new staff, to fire and to choose the patrolled area.
  * Pressing the park information button a windows must pop-up with all the information of the park such as the status (opened, closed), the park rating, the number of guests, the admission price and the objetives of the player for the park.
  * Pressing the rides in park button a window must appear with all the rides, shops, stalls, toilets and information Kiosks of the park and a option to sort them.
-* While in the game state, the bottom right must have the date of the park, the temperature and weather.
-* In the game state, in the bottom left must appear the total money the player have, the number of guests of the park and the current park rating.
-
+ * While in the game state, the bottom right must have the date of the park, the temperature and weather.
+ * In the game state, in the bottom left must appear the total money the player have, the number of guests of the park and the current park rating.
+ * Choosing the pause game button, the game state must pause. This includes the atual date.
+ * Choosing the change game speed button, the player can choose the speed of the time.
+ * Pressing the game options button the player must be able to start a new game, load a previous game, save the game, access to the  options, take screenshots, exit the game and quit to the menu.
+ * Pressing the options button on the game options state, a new window must appear so that the player can change the video settings, language, currency, sound settings and controls.
+ * Pressing the zoom view the park the player can see the park from a greater distance.
+ * Pressing the zoom view the park the player can get closer to the park.
+ * Choosing the rotate view 90º button the camera must change 90º clockwise.
+ * Pressing the view options button the player can hide parts of the scenery.
+ * Pressing the map button a window must pop-up with the park map see from above.
 
 ### Non-Functional requirements
 #### User requirements
