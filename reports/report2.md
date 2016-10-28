@@ -64,6 +64,8 @@ That's why requirements must be as much detailed as possible if we intend to avo
  * Chossing the staff button a new window must appear with all the staff of the park, a option to hire new staff, to fire and to choose the patrolled area.
  * Pressing the park information button a windows must pop-up with all the information of the park such as the status (opened, closed), the park rating, the number of guests, the admission price and the objetives of the player for the park.
  * Pressing the rides in park button a window must appear with all the rides, shops, stalls, toilets and information Kiosks of the park and a option to sort them.
+* While in the game state, the bottom right must have the date of the park, the temperature and weather.
+* In the game state, in the bottom left must appear the total money the player have, the number of guests of the park and the current park rating.
 
 
 ### Non-Functional requirements
