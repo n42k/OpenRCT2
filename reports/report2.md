@@ -33,6 +33,7 @@ Requirements engineering (RE) is one of the most crucial sector in Software engi
 The main problems are:
 * (mis)communication
 * (mis)understanding
+
 That's why requirements must be as much detailed as possible if we intend to avoid this problems.
 
 ## Specific Requirements and Features<a name="specific-requirements"></a>
