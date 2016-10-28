@@ -54,7 +54,17 @@ That's why requirements must be as much detailed as possible if we intend to avo
  * The game state need to have a little menu at the top right corner.
  * Pressing the demolition button the mouse must be able to take things from the map and must appear a window with the cost of the demolition.
  * Pressing the adjust land button the mouse must be able to change the land height and slove, must appear a window with the cost and size of the land change.
- * ...
+ * Pressing the create and adjust water button a windows must appear with the size of ground for the water and cost and the player must be able to create and change the water in the ground with the mouse.
+ * Pressing the place scenery button a windows must appear with all the options do customize the park with a associate cust and the player must be able to put them on the ground with the mouse.
+ * Pressing the build footpaths button a new window must appear with the direction, size, type and inclination of the footpaths, and the player must be able to put them on the  with the mouse.
+ * Choosing the new attraction button a window must appear to choose the transport ride and the player has to put them on the map with the mouse.
+ * Choosing the funding button a window must appear with the progress of the park and the research funding amd priorities.
+ * Pressing the guests button, a windows must appear with all the guests of the park.
+ * Choosing one of the guests of the guests window, a new window must appear with the information of the guest, like his money, his thoughts, what he is carrying, rides been on and his feelings.
+ * Chossing the staff button a new window must appear with all the staff of the park, a option to hire new staff, to fire and to choose the patrolled area.
+ * Pressing the park information button a windows must pop-up with all the information of the park such as the status (opened, closed), the park rating, the number of guests, the admission price and the objetives of the player for the park.
+ * Pressing the rides in park button a window must appear with all the rides, shops, stalls, toilets and information Kiosks of the park and a option to sort them.
+
 
 ### Non-Functional requirements
 #### User requirements
