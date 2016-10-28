@@ -2,15 +2,14 @@
 
 ## Index
 1. [Requirements](#requirements)
-	1. [Introduction](#introduction)
+	1. [Introduction and Description](#intro_descri)
 	2. [Purpose/Scope](#purpose/scope)
-	3. [Description](#description)
 2. [Specific Requirements and Features](#specific-requirements)
 3. [Use Cases](#use-cases)
 4. [Domain Model](#domain-model)
 
 ## Requirements <a name="requirements"></a>
-### Introduction <a name="introduction"></a>
+### Introduction and Description <a name="intro_descri"></a>
 Requirements engineering (RE) is the process of studying custom/user expectations towards a specific product. In other words, requirements engineering means that requirements for a system are defined, managed and tested systematically.
 These software requirements deals with establishing the needs of stakeholders that are to be solved by software and fully describes what software will do and how it will be expected to perform.
 Requirements must be quantifiable, detailed and not ambiguous.
