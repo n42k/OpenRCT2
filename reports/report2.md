@@ -24,6 +24,9 @@ Requirements must be quantifiable, detailed and not ambiguous.
 * Organizing Requirements - The developers prioritize and arrange the requirements in order of importance, urgency and convenience.
 * Negotiation & discussion - If requirements are ambiguous, contributors must discuss with main developers to have additional information and requirements be as much detailed as possible.
 
+### Purpose/Scope <a name="purpose/scope"></a>
+According to developers, openRCT2 attempts to provide everything from RollerCoaster Tycoon 2 as well as many improvements and additional features. For example, some of these may include support for modern platforms, an improved interface, improved guest and staff AI, more editing tools, increased limits, and cooperative multiplayer.
+
 Sempre que existam por parte de colaboradores, novas ideias para o projeto, a equipa aconselha a contacta-la primeiro, porque podem já existir planos para a sua realização, ou então, porque a equipa pode já ter motivos contra a sua implementação. Ao contactar a equipa, o colaborador evita perder tempo implementando uma feature que pode não ser aceite. É possível contactar a equipa através do [gitter](https://gitter.im/OpenRCT2/OpenRCT2).
 
 ## Specific Requirements and Features<a name="specific-requirements"></a>
