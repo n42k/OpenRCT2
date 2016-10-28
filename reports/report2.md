@@ -21,7 +21,7 @@ Requirements must be quantifiable, detailed and not ambiguous.
 **Fig1-** Requirements Elicitation Process by "TutorialsPoint".
 
 * Requirements gathering - The contributors discuss with the main developers and know their expectations from the software.
-* Organizing Requirements - The developers prioritize and arrange the requirements in order of importance, urgency and convenience.
+* Organizing Requirements - The contributors prioritize and arrange the requirements in order of importance, urgency and convenience.
 * Negotiation & discussion - If requirements are ambiguous, contributors must discuss with main developers to have additional information and requirements be as much detailed as possible.
 
 ### Purpose/Scope <a name="purpose/scope"></a>
