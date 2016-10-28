@@ -33,7 +33,7 @@ Requirements engineering (RE) is one of the most crucial sector in Software engi
 
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/Relative_cost_to_fix_an_error.png)
 
-**Fig2 -** Cost of fixing errors depending on the time elapsed by "Software Engineering Economics" book from Barry Boehm.
+**Fig2 -** Cost of fixing errors depending on the time elapsed by "Software Engineering Economics" book from *Barry Boehm*.
 
 The main problems are:
 * (mis)communication
