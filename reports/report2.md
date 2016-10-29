@@ -108,14 +108,38 @@ A use case (or set of use cases) has these characteristics:
 * Is multi-level, so that one use case can use the functionality of another one.
 
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/Use_cases_diagram.png)
-**Fig3-** Use cases diagram.
+**Fig3 -** Use cases diagram.
 
 ## Domain Model<a name="domain-model"></a>
 ### Brief Definition
-Em engenharia do software, um "domain model" pode ser visto como um modelo conceptual de um sistema que incorpora todas as entidades desse mesmo sistema, a informação e as relações existentes entre estes.
+Na engenharia do software, um "domain model" pode ser visto como um modelo conceptual de um sistema que incorpora todas as entidades desse mesmo sistema, a informação e as relações existentes entre estes.
 O "domain model" é pois, um conjunto de abstrações que ajudam a entender um dado sistema e a sua atividade. 
 
-### Domain Classes:
+### Domain Classes
+* Park
+* Funding
+* Scenarios
+* Guests
+* Staff
+    * Handymen
+    * Mechanic
+    * Security
+    * Entertainers
+* Attractions
+    * Ride
+        * Transport Ride
+        * Gentle Ride
+        * Roller Coaster
+        * Thrill Ride
+        * Water Ride
+    * Shop
+    * Stall
+    * Toilet
+    * Information Kiosks
+* ...
+
+**TODO: DOMAIN MODEL**
+**Fig4 -** Domain model diagram.
 
 ## Contributions
 * João 'TUTAMKHAMON' Ferreira.
