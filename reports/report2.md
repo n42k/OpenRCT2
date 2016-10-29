@@ -107,7 +107,8 @@ A use case (or set of use cases) has these characteristics:
 * Records paths (called scenarios) from trigger events to goals.
 * Is multi-level, so that one use case can use the functionality of another one.
 
-**TODO: add uml use cases diagram's**
+![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/Use_cases_diagram.png)
+**Fig3-** Use cases diagram.
 
 ## Domain Model<a name="domain-model"></a>
 	TODO: Domain Model
