@@ -5,6 +5,11 @@
 	1. [Introduction and Description](#intro_descri)
 	2. [Purpose/Scope](#purpose/scope)
 2. [Specific Requirements and Features](#specific-requirements)
+	1. [Functional requirements](#functional-requirements)
+		1. [User requirements](#functional-user-requirements)
+	2. [Non-Functional requirements](#non-functional-requirements)
+		1. [User requirements](#non-functional-user-requirements)
+		2. [System requirements](#non-functional-system-requirements)
 3. [Use Cases](#use-cases)
 4. [Domain Model](#domain-model)
 
@@ -42,8 +47,8 @@ The main problems are:
 That's why requirements must be as much detailed as possible if we intend to avoid this problems.
 
 ## Specific Requirements and Features<a name="specific-requirements"></a>
-### Functional requirements
-#### User requirements
+### Functional requirements<a name="functional-requirements"></a>
+#### User requirements<a name="functional-user-requirements"></a>
  * There must be an initial menu that the user can interact with.
  * Pressing the start a new game button in the initial menu must present a dialog with a set of parks to play on, with varying degrees of difficulties.
  * Pressing the load a game button in the initial menu must present a dialog with a list of the saved games that the user can choose to load.
@@ -76,11 +81,11 @@ That's why requirements must be as much detailed as possible if we intend to avo
  * Pressing the view options button the player can hide parts of the scenery.
  * Pressing the map button, a window must pop-up with the park map see from above.
 
-### Non-Functional requirements
-#### User requirements
+### Non-Functional requirements<a name="non-functional-requirements"></a>
+#### User requirements<a name="non-functional-user-requirements"></a>
 * O jogo deve estar optimizado e, por consequência, possuir um número considerável de frames per second;
 
-#### System requirements
+#### System requirements<a name="non-functional-system-requirements"></a>
 * **Processor (CPU):** Pentium III
 * **System memory (RAM):** 64 MB
 * **Hard disk drive(HDD):** 800MB
