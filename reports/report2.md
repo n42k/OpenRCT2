@@ -19,7 +19,7 @@ Requirements engineering (RE) is the process of studying custom/user expectation
 These software requirements deals with establishing the needs of stakeholders that are to be solved by software and fully describes what software will do and how it will be expected to perform.
 Requirements must be quantifiable, detailed and not ambiguous.
 
-##### Requirements Elicitation Process 
+##### Requirements Elicitation Process
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/requirement_elicitation.png)
 
 **Fig1 -** Requirements Elicitation Process by "TutorialsPoint".
@@ -33,12 +33,20 @@ According to developers, openRCT2 attempts to provide everything from RollerCoas
 
 Sempre que existam por parte de colaboradores, novas ideias para o projeto, a equipa aconselha a contacta-la primeiro, porque podem já existir planos para a sua realização, ou então, porque a equipa pode já ter motivos contra a sua implementação. Ao contactar a equipa, o colaborador evita perder tempo implementando uma feature que pode não ser aceite. É possível contactar a equipa através do [gitter](https://gitter.im/OpenRCT2/OpenRCT2).
 
-### Importance of RE
-Requirements engineering (RE) is one of the most crucial sector in Software engineering and can influence the entire software development cycle, because errors produced at this stage, if weren't prevented or fixed, have the highest cost to fix later on. 
+### Importance of Requirements
+Requirements are important because they are one of the key contributors to the success or failure of projects: if what is needed to be done isn't known, we might end up solving the wrong issue entirely.
+
+If we plan software to be high-quality from the beginning, we have a greater chance of it staying that way rather than another product that doesn't have high-quality as a goal.
 
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/Relative_cost_to_fix_an_error.png)
 
 **Fig2 -** Cost of fixing errors depending on the time elapsed by "Software Engineering Economics" book from *Barry Boehm*.
+
+Researchers at big organizations have found that removing an error just before starting to code allows 10 to 100 times less costs than when it's done when testing the system or after release. (Reference: Code Complete 2, TODO: place at end a references section?)
+
+This cost can be explained very simply: if an error is found during the coding stage, it's easy to correct it by fixing a few lines. However, if the error has to do with the overall design of the system, it is much harder to solve, possibly requiring a rewrite of certain features, or even the entire project.
+
+TODO: improve below.
 
 The main problems are:
 * (mis)communication
@@ -113,7 +121,7 @@ A use case (or set of use cases) has these characteristics:
 ## Domain Model<a name="domain-model"></a>
 ### Brief Definition
 Na engenharia do software, um "domain model" pode ser visto como um modelo conceptual de um sistema que incorpora todas as entidades desse mesmo sistema, a informação e as relações existentes entre estes.
-O "domain model" é pois, um conjunto de abstrações que ajudam a entender um dado sistema e a sua atividade. 
+O "domain model" é pois, um conjunto de abstrações que ajudam a entender um dado sistema e a sua atividade.
 
 ### Domain Classes
 * Park
