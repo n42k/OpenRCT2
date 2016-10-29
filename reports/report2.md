@@ -66,7 +66,7 @@ That's why requirements must be as much detailed as possible if we intend to avo
  * Choosing the funding button a window must appear with the progress of the park and the research funding amd priorities.
  * Pressing the guests button, a windows must appear with all the guests of the park.
  * Choosing one of the guests of the guests window, a new window must appear with the information of the guest, like his money, his thoughts, what he is carrying, rides been on and his feelings.
- * Chossing the staff button a new window must appear with all the staff of the park, a option to hire new staff, to fire and to choose the patrolled area.
+ * Choosing the staff button a new window must appear with all the staff of the park, a option to hire new staff, to fire and to choose the patrolled area.
  * Pressing the park information button a windows must pop-up with all the information of the park such as the status (opened, closed), the park rating, the number of guests, the admission price and the objetives of the player for the park.
  * Pressing the rides in park button a window must appear with all the rides, shops, stalls, toilets and information Kiosks of the park and a option to sort them.
  * While in the game state, the bottom right must have the date of the park, the temperature and weather.
@@ -111,8 +111,12 @@ A use case (or set of use cases) has these characteristics:
 **Fig3-** Use cases diagram.
 
 ## Domain Model<a name="domain-model"></a>
-	TODO: Domain Model
-	
+### Brief Definition
+Em engenharia do software, um "domain model" pode ser visto como um modelo conceptual de um sistema que incorpora todas as entidades desse mesmo sistema, a informação e as relações existentes entre estes.
+O "domain model" é pois, um conjunto de abstrações que ajudam a entender um dado sistema e a sua atividade. 
+
+### Domain Classes:
+
 ## Contributions
 * João 'TUTAMKHAMON' Ferreira.
 * Jorge 'Jorge2210' Ferreira.
