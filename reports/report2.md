@@ -104,6 +104,8 @@ A use case (or set of use cases) has these characteristics:
 * Is multi-level, so that one use case can use the functionality of another one.
 
 ### Use Case Model
+There is an almost infinite number of use cases for the OpenRCT2 game, so we had to reduce our scope to the most important use cases of a normal playthrough of the game.
+For the main menu:
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/UC_offline.png)
 
 **Img2 -** Use cases diagram for the main menu.
@@ -116,6 +118,7 @@ A use case (or set of use cases) has these characteristics:
  > **Description:** By starting the game, the main menu is displayed and the user can freely choose between the options given. <br>
  > **Post-conditions:** None.	
  
+ For the main play stage:
  ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/UC_management.png)
 
 **Img3 -** Use cases diagram inside the main game.
