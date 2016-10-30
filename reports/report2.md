@@ -15,7 +15,7 @@
 
 ## Requirements <a name="requirements"></a>
 ### Introduction<a name="introduction"></a>
-Requirements are a detailed description of what features a software product should have. They're generally considered to be the first phase of software development.
+Requirements are a detailed description of what features a software product should have. It
 
 Requirements are important because they are one of the key contributors to the success or failure of projects: if what is needed to be done isn't known, we might end up solving the wrong issue entirely.
 
@@ -74,7 +74,9 @@ When any developer interested in OpenRCT2 has a new idea for the project, the de
 
 ### Non-Functional requirements<a name="non-functional-requirements"></a>
 #### User requirements<a name="non-functional-user-requirements"></a>
-* The game must be optimized and, as a consequence, meet a set minimum number of frames per second.
+* The game must run on low end computers at acceptable frame rates, so optimizing it for performance is essential.
+* The game must be reliable, crashing very rarely so that players do not lose any work.
+* The game must be visually appealing.
 
 #### System requirements<a name="non-functional-system-requirements"></a>
 There are no hardware non-functional system requirements in OpenRCT2. However, the original requirements of this type for the original game were:
@@ -100,27 +102,16 @@ A use case (or set of use cases) has these characteristics:
 * Records paths (called scenarios) from trigger events to goals.
 * Is multi-level, so that one use case can use the functionality of another one.
 
-### Use Case Model
+![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/Use_cases_diagram.png)
+**Fig3 -** Use cases diagram.
 
-![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/UC_offline.png).
-
-##### OpenRCT2 Main Menu	
- > **Name:** Main menu.		
- > **Actors:** Older Player,New Player.		
- > **Goal:** The user should see an user-friendly interface.		
- > **Pre-conditions:** None.		
- > **Description:** By starting the game, the main menu is displayed and the user can freely choose between the options given. <br>
- > **Post-conditions:** None.	
- 
- ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/UC_management.png).
-
-##### OpenRCT2 Single Player	
- > **Name:** Single Player.		
- > **Actors:** Player.		
- > **Goal:** The player must try to make a profit and maintain a good park reputation whilst keeping the guests happy.
- > **Pre-conditions:** None.		
- > **Description:** The player starts with a pre-defined park and then he tries to manage everything inside it. <br>
- > **Post-conditions:** Game Won.		
+##### OpenRCT2 MP		
+ * **Name:** OpenRCT2 multiplayer.		
+ * **Actors:** Older Player/New Player, Server.		
+ * **Goal:** The user should be able to play with other people.		
+ * **Pre-conditions:** User must have internet connection.		
+ * **Description:** By pressing the multi player button, a list with the available servers appears and the user can freely choose.
+ * **Post-conditions:** User can now interact with the park and other players.		
 
 ## Domain Model<a name="domain-model"></a>
 ### Brief Definition
@@ -149,15 +140,13 @@ A "domain model" is, this way, a set of abstractions that help in understanding 
     * Stall
     * Toilet
     * Information Kiosk
+* ...
 
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/domain_model.png)
 
 **Fig4 -** Domain model diagram.
 
 ## Contributions
-
-All 4 group members have contributed evenly to the report:
-
 * João 'TUTAMKHAMON' Ferreira.
 * Jorge 'Jorge2210' Ferreira.
 * Pedro 'n42k' Amaro.
