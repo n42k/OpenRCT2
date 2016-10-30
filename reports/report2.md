@@ -105,22 +105,22 @@ A use case (or set of use cases) has these characteristics:
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/UC_offline.png).
 
 ##### OpenRCT2 Main Menu	
- * **Name:** Main menu.		
- * **Actors:** Older Player,New Player.		
- * **Goal:** The user should see an user-friendly interface.		
- * **Pre-conditions:** None.		
- * **Description:** By starting the game, the main menu is displayed and the user can freely choose between the options given.
- * **Post-conditions:** None.	
+ > **Name:** Main menu.		
+ > **Actors:** Older Player,New Player.		
+ > **Goal:** The user should see an user-friendly interface.		
+ > **Pre-conditions:** None.		
+ > **Description:** By starting the game, the main menu is displayed and the user can freely choose between the options given.
+ > **Post-conditions:** None.	
  
  ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/UC_management.png).
 
 ##### OpenRCT2 Single Player	
- * **Name:** Single Player.		
- * **Actors:** Player.		
- * **Goal:** The player must try to make a profit and maintain a good park reputation whilst keeping the guests happy.
- * **Pre-conditions:** None.		
- * **Description:** The player starts with a pre-defined park and then he tries to manage everything inside it.
- * **Post-conditions:** Game Won.		
+ > **Name:** Single Player.		
+ > **Actors:** Player.		
+ > **Goal:** The player must try to make a profit and maintain a good park reputation whilst keeping the guests happy.
+ > **Pre-conditions:** None.		
+ > **Description:** The player starts with a pre-defined park and then he tries to manage everything inside it.
+ > **Post-conditions:** Game Won.		
 
 ## Domain Model<a name="domain-model"></a>
 ### Brief Definition
