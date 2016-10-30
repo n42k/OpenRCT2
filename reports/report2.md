@@ -101,6 +101,14 @@ A use case (or set of use cases) has these characteristics:
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/Use_cases_diagram.png)
 **Fig3 -** Use cases diagram.
 
+-##### OpenRCT2 MP		
+ -* **Name:** OpenRCT2 multiplayer.		
+ -* **Actors:** Older Player/New Player, Server.		
+ -* **Goal:** The user should be able to play with other people.		
+ -* **Pre-conditions:** User must have internet connection.		
+ -* **Description:** By pressing the multi player button, a list with the available servers appears and the user can freely choose.		
+ -* **Post-conditions:** User can now interact with the park and other players.		
+
 ## Domain Model<a name="domain-model"></a>
 ### Brief Definition
 In software engineering, a "domain model" may be seen as a conceptual model of a system that incorporates all its entities and their information, as well as the relations between them.
