@@ -32,7 +32,7 @@ This cost can be explained very simply: if an error is found during the coding s
 The time that should be spent on requirements highly depends on the project. If the requirements are stable, it will take less time than if they were unstable. The size of the project is also an important factor: for smaller projects you may be able to afford programming as you create the requirements, whereas that would be very risky in a larger project.
 
 ##### Requirements Elicitation Process in OpenRCT2
-According to developers, OpenRCT2 attempts to provide everything from the original Roller Coaster Tycoon 2, as well as many improvements and additional features. For example, some of these may include support for modern platforms, an improved interface, improved guest and staff AI, more editing tools, increased limits, and cooperative multi player.
+According to developers, OpenRCT2 attempts to provide everything from the original Roller Coaster Tycoon 2, as well as many improvements and additional features. For example, some of these may include support for modern platforms, an improved interface, improved guest and staff AI, more editing tools, increased limits, and cooperative multiplayer.
 
 When any developer interested in OpenRCT2 has a new idea for the project, the development team recommends contacting them first, since they might already have plans for the same idea, or because the team might have issues against its implementation. By contacting the team, the developer avoids spending time on a feature that might not be accepted. The team can be contacted through [gitter](https://gitter.im/OpenRCT2/OpenRCT2).
 
@@ -42,7 +42,7 @@ When any developer interested in OpenRCT2 has a new idea for the project, the de
  * There must be an initial menu that the user can interact with;
  * Pressing the start a new game button in the initial menu must present a dialog with a set of parks to play on, with varying degrees of difficulties;
  * Pressing the load a game button in the initial menu must present a dialog with a list of the saved games that the user can choose to load;
- * Pressing the multi player button makes a list with the available servers appear;
+ * Pressing the multiplayer button makes a list with the available servers appear;
  * Pressing the game tools button must present a new window with all the editing tools;
  * Pressing the options button must present a window with the configuration of the game;
  * Moving the mouse through the objects in the game must show a small textual description of the object;
@@ -90,11 +90,11 @@ In terms of operating system, however, OpenRCT2 is multi platform and must run i
 ## Use Cases<a name="use-cases"></a>
 ### Brief Definition
 A use case is a methodology used in system analysis to identify, clarify, and organize system requirements.
-The use case is a list of actions or event steps, typically defining the interactions between a role,also know as actor, and a system to achieve a goal.
+The use case is a list of actions or event steps, typically defining the interactions between a role, also known as actor, and a system to achieve a goal.
 
-**Actor -** Actor models a type of role played by an entity, not an individual user of the system, that interacts with the system . Actors are external entities such as people or other systems that interfaces with the developed system.
+**Actor -** Actors model a type of role played by an entity, not an individual user of the system, that interacts with the system. Actors are external entities such as people or other systems that interfaces with the developed system.
 
-**Development System -** The software made, it can be an application, a game,etc.
+**Development System -** The software made, such as an application or a game.
 
 A use case (or set of use cases) has these characteristics:
 * Organizes functional requirements.
@@ -102,16 +102,20 @@ A use case (or set of use cases) has these characteristics:
 * Records paths (called scenarios) from trigger events to goals.
 * Is multi-level, so that one use case can use the functionality of another one.
 
+# TODO: turn below to single player
+##### OpenRCT2 MP
+In OpenRCT2 we can easily define a few example use cases. Since there's only one player, there's won't be many actors. However, each player will have many possible interactions with the game.
+
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/Use_cases_diagram.png)
 **Fig3 -** Use cases diagram.
 
-##### OpenRCT2 MP		
  * **Name:** OpenRCT2 multiplayer.		
  * **Actors:** Older Player/New Player, Server.		
  * **Goal:** The user should be able to play with other people.		
  * **Pre-conditions:** User must have internet connection.		
- * **Description:** By pressing the multi player button, a list with the available servers appears and the user can freely choose.
- * **Post-conditions:** User can now interact with the park and other players.		
+ * **Description:** By pressing the multiplayer button, a list with the available servers appears and the user can freely choose.
+ * **Post-conditions:** User can now interact with the park and other players.
+# TODO: turn above to single player
 
 ## Domain Model<a name="domain-model"></a>
 ### Brief Definition
