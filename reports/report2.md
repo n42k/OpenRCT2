@@ -130,6 +130,7 @@ O "domain model" é pois, um conjunto de abstrações que ajudam a entender um d
 * ...
 
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/domain_model.png)
+
 **Fig4 -** Domain model diagram.
 
 ## Contributions
