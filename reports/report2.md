@@ -136,7 +136,7 @@ For the main menu:
 In software engineering, a "domain model" may be seen as a conceptual model of a system that incorporates all its entities and their information, as well as the relations between them.
 A "domain model" is, this way, a set of abstractions that help in understanding a given system and its activity.
 
-### Domain Classes
+### Domain Classes in OpenRCT2
 * Park
 * Funding
 * Scenario
@@ -159,6 +159,7 @@ A "domain model" is, this way, a set of abstractions that help in understanding 
     * Toilet
     * Information Kiosk
 
+### Domain Model Diagram
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/domain_model.png)
 
 **Img4 -** Domain model diagram.
