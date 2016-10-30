@@ -24,7 +24,7 @@ If we plan software to be high-quality from the beginning, we have a greater cha
 
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/Relative_cost_to_fix_an_error.png)
 
-**Img1 -** Cost of fixing errors depending on the phase of the project they were found ("Software Engineering Economics" book from *Barry Boehm*).
+**Fig1 -** Cost of fixing errors depending on the phase of the project they were found ("Software Engineering Economics" book from *Barry Boehm*).
 
 Researchers at big organizations have found that removing an error just before starting to code allows 10 to 100 times less costs than when it's done when testing the system or after release. [\[1\]](#reference1)
 
@@ -108,7 +108,7 @@ There is an almost infinite number of use cases for the OpenRCT2 game, so we had
 For the main menu:
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/UC_offline.png)
 
-**Img2 -** Use cases diagram for the main menu.
+**Fig2 -** Use cases diagram for the main menu.
 
 ##### OpenRCT2 Main Menu	
  > **Name:** Main menu.		
@@ -121,7 +121,7 @@ For the main menu:
  For the main play stage:
  ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/UC_management.png)
 
-**Img3 -** Use cases diagram inside the main game.
+**Fig3 -** Use cases diagram inside the main game.
 
 ##### OpenRCT2 Single Player	
  > **Name:** Single Player.		
@@ -162,7 +162,7 @@ A "domain model" is, this way, a set of abstractions that help in understanding 
 ### Domain Model Diagram
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/domain_model.png)
 
-**Img4 -** Domain model diagram.
+**Fig4 -** Domain model diagram.
 
 ## Contributions
 
