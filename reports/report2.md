@@ -121,6 +121,7 @@ A "domain model" is, this way, a set of abstractions that help in understanding 
 * Funding
 * Scenario
 * Guest
+* Scenery
 * Staff
     * Handymen
     * Mechanic
