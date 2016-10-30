@@ -145,6 +145,9 @@ A "domain model" is, this way, a set of abstractions that help in understanding 
 **Fig4 -** Domain model diagram.
 
 ## Contributions
+
+All 4 group members have contributed evenly to the report:
+
 * João 'TUTAMKHAMON' Ferreira.
 * Jorge 'Jorge2210' Ferreira.
 * Pedro 'n42k' Amaro.
