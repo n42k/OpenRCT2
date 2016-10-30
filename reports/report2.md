@@ -12,6 +12,7 @@
 		2. [System requirements](#non-functional-system-requirements)
 3. [Use Cases](#use-cases)
 4. [Domain Model](#domain-model)
+5. [Bibliography](#bibliography)
 
 ## Requirements <a name="requirements"></a>
 ### Introduction<a name="introduction"></a>
@@ -164,7 +165,7 @@ All 4 group members have contributed evenly to the report:
 * Pedro 'n42k' Amaro.
 * Pedro 'Oshnira' Lima.
 
-## Bibliography
+## Bibliography <a name="bibliography"></a>
 [1] McConnell, Steve (June 2004). "Design in Construction". Code Complete (2nd ed.). Microsoft Press. p. 29. ISBN 978-0-7356-1967-8. "Chapter 3: Measure Twice, Cut Once: Upstream Prerequisites" <a name="reference1">
 
 Use Case explanations: *http://searchsoftwarequality.techtarget.com/definition/use-case*
