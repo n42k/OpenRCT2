@@ -23,7 +23,7 @@ If we plan software to be high-quality from the beginning, we have a greater cha
 
 **Fig2 -** Cost of fixing errors depending on the phase of the project they were found ("Software Engineering Economics" book from *Barry Boehm*).
 
-Researchers at big organizations have found that removing an error just before starting to code allows 10 to 100 times less costs than when it's done when testing the system or after release. (Reference: Code Complete 2, TODO: place at end a references section?)
+Researchers at big organizations have found that removing an error just before starting to code allows 10 to 100 times less costs than when it's done when testing the system or after release. [\[1\]](#reference1)
 
 This cost can be explained very simply: if an error is found during the coding stage, it's easy to correct it by fixing a few lines. However, if the error has to do with the overall design of the system, it is much harder to solve, possibly requiring a rewrite of certain features, or even the entire project.
 
@@ -137,4 +137,6 @@ O "domain model" é pois, um conjunto de abstrações que ajudam a entender um d
 * Pedro 'Oshnira' Lima.
 
 ## Bibliography
+[1] McConnell, Steve (June 2004). "Design in Construction". Code Complete (2nd ed.). Microsoft Press. p. 29. ISBN 978-0-7356-1967-8. "Chapter 3: Measure Twice, Cut Once: Upstream Prerequisites" <a name="reference1">
+
 Use Case explanations: *http://searchsoftwarequality.techtarget.com/definition/use-case*
