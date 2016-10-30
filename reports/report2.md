@@ -37,42 +37,42 @@ When any developer interested in OpenRCT2 has a new idea for the project, the de
 ## Specific Requirements and Features<a name="specific-requirements"></a>
 ### Functional requirements<a name="functional-requirements"></a>
 #### User requirements<a name="functional-user-requirements"></a>
- * There must be an initial menu that the user can interact with.
- * Pressing the start a new game button in the initial menu must present a dialog with a set of parks to play on, with varying degrees of difficulties.
- * Pressing the load a game button in the initial menu must present a dialog with a list of the saved games that the user can choose to load.
- * Pressing the multi player button makes a list with the available servers appear.
- * Pressing the game tools button must present a new window with all the editing tools.
- * Pressing the options button must present a window with the configuration of the game.
- * Moving the mouse through the objects in the game must show a small textual description of the object.
- * The game needs to have a menu at the top right corner, with various buttons.
- * Pressing the demolition button the mouse must allow a player to remove objects from the map and must show a window with the cost of demolition.
- * Pressing the adjust land button the mouse must be able to change the land height and slope, a window must appear with the cost and size of the land change.
- * Pressing the create and adjust water button a windows must appear with the size of ground for the water and the cost of construction and the player must be able to create and change the water in the ground with the mouse.
- * Pressing the place scenery button a window must appear with all the options to customize the park using scenery objects with an associated cost and the player must be able to put them on the map with the mouse.
- * Pressing the build footpaths button a new window must appear with the direction, size, type and inclination of the footpaths, and the player must be able to put them on the map with the mouse.
- * Choosing the new attraction button a window must appear to choose the transport ride and the player has to put them on the map with the mouse.
- * Choosing the funding button a window must appear with the progress of the park and the research funding and priorities.
- * Pressing the guests button, a windows must appear with all the guests of the park.
- * Choosing one of the guests on the guests window, the guest information window must appear.
- * The guest information window must show a guest's information, such as his money, his thoughts, what he's carrying, rides he's been on and his feelings.
- * Choosing the staff button a new window must appear with all the staff of the park, a option to hire or fire staff and to choose the patrolled area.
- * Pressing the park information button a window must pop-up with all the information of the park such as the status (opened, closed), the park rating, the number of guests, the admission price and the objectives of the player for the park.
- * Pressing the rides in park button a window must appear with all the rides, shops, stalls, toilets and information kiosks of the park and an option to sort them.
- * While in the game state, the bottom right must have the date of the park, the temperature and the weather.
- * In the game state, the bottom left must show the total money the player has, the number of guests of the park and the current park rating.
- * Clicking the pause game button, the game state must pause. This includes the actual date.
- * Choosing the change game speed button, the player can choose the speed of time.
- * Clicking the game options button the player must be able to start a new game, load a previous game, save the game, access the options menu, take screenshots, exit the game and quit to the main menu.
- * Pressing the options button in the game options, a new window must appear so that the player can change the video settings, language, currency, sound settings and controls.
- * Pressing the zoom out button the player can see the park from a greater distance.
- * Pressing the zoom in button the player can get closer to the park.
- * Clicking the rotate view 90º button the camera must change 90º clockwise.
- * Pressing the view options button the player can hide parts of the scenery.
+ * There must be an initial menu that the user can interact with;
+ * Pressing the start a new game button in the initial menu must present a dialog with a set of parks to play on, with varying degrees of difficulties;
+ * Pressing the load a game button in the initial menu must present a dialog with a list of the saved games that the user can choose to load;
+ * Pressing the multi player button makes a list with the available servers appear;
+ * Pressing the game tools button must present a new window with all the editing tools;
+ * Pressing the options button must present a window with the configuration of the game;
+ * Moving the mouse through the objects in the game must show a small textual description of the object;
+ * The game needs to have a menu at the top right corner, with various buttons;
+ * Pressing the demolition button the mouse must allow a player to remove objects from the map and must show a window with the cost of demolition;
+ * Pressing the adjust land button the mouse must be able to change the land height and slope, a window must appear with the cost and size of the land change;
+ * Pressing the create and adjust water button a windows must appear with the size of ground for the water and the cost of construction and the player must be able to create and change the water in the ground with the mouse;
+ * Pressing the place scenery button a window must appear with all the options to customize the park using scenery objects with an associated cost and the player must be able to put them on the map with the mouse;
+ * Pressing the build footpaths button a new window must appear with the direction, size, type and inclination of the footpaths, and the player must be able to put them on the map with the mouse;
+ * Choosing the new attraction button a window must appear to choose the transport ride and the player has to put them on the map with the mouse;
+ * Choosing the funding button a window must appear with the progress of the park and the research funding and priorities;
+ * Pressing the guests button, a windows must appear with all the guests of the park;
+ * Choosing one of the guests on the guests window, the guest information window must appear;
+ * The guest information window must show a guest's information, such as his money, his thoughts, what he's carrying, rides he's been on and his feelings;
+ * Choosing the staff button a new window must appear with all the staff of the park, a option to hire or fire staff and to choose the patrolled area;
+ * Pressing the park information button a window must pop-up with all the information of the park such as the status (opened, closed), the park rating, the number of guests, the admission price and the objectives of the player for the park;
+ * Pressing the rides in park button a window must appear with all the rides, shops, stalls, toilets and information kiosks of the park and an option to sort them;
+ * While in the game state, the bottom right must have the date of the park, the temperature and the weather;
+ * In the game state, the bottom left must show the total money the player has, the number of guests of the park and the current park rating;
+ * Clicking the pause game button, the game state must pause; This includes the actual date;
+ * Choosing the change game speed button, the player can choose the speed of time;
+ * Clicking the game options button the player must be able to start a new game, load a previous game, save the game, access the options menu, take screenshots, exit the game and quit to the main menu;
+ * Pressing the options button in the game options, a new window must appear so that the player can change the video settings, language, currency, sound settings and controls;
+ * Pressing the zoom out button the player can see the park from a greater distance;
+ * Pressing the zoom in button the player can get closer to the park;
+ * Clicking the rotate view 90º button the camera must change 90º clockwise;
+ * Pressing the view options button the player can hide parts of the scenery;
  * Pressing the map button, a window must pop-up with the park map see from above.
-
+ 
 ### Non-Functional requirements<a name="non-functional-requirements"></a>
 #### User requirements<a name="non-functional-user-requirements"></a>
-* O jogo deve estar optimizado e, por consequência, possuir um número considerável de frames per second;
+* The game must be optimized and, as a consequence, meet a set minimum number of frames per second.
 
 #### System requirements<a name="non-functional-system-requirements"></a>
 There are no hardware non-functional system requirements in OpenRCT2. However, the original requirements of this type for the original game were:
@@ -101,18 +101,10 @@ A use case (or set of use cases) has these characteristics:
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/Use_cases_diagram.png)
 **Fig3 -** Use cases diagram.
 
-##### OpenRCT2 MP
-* **Name:** OpenRCT2 multiplayer.
-* **Actors:** Older Player/New Player, Server.
-* **Goal:** The user should be able to play with other people.
-* **Pre-conditions:** User must have internet connection.
-* **Description:** By pressing the multi player button, a list with the available servers appears and the user can freely choose.
-* **Post-conditions:** User can now interact with the park and other players.
-
 ## Domain Model<a name="domain-model"></a>
 ### Brief Definition
-Na engenharia do software, um "domain model" pode ser visto como um modelo conceptual de um sistema que incorpora todas as entidades desse mesmo sistema, a informação e as relações existentes entre estes.
-O "domain model" é pois, um conjunto de abstrações que ajudam a entender um dado sistema e a sua atividade.
+In software engineering, a "domain model" may be seen as a conceptual model of a system that incorporates all its entities and their information, as well as the relations between them.
+A "domain model" is, this way, a set of abstractions that help in understanding a given system and its activity.
 
 ### Domain Classes
 * Park
