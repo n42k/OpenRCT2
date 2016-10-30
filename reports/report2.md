@@ -103,7 +103,7 @@ A use case (or set of use cases) has these characteristics:
 * Is multi-level, so that one use case can use the functionality of another one.
 
 ### Use Case Model
-![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/UC_offline.png).
+![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/UC_offline.png)
 
 ##### OpenRCT2 Main Menu	
  > **Name:** Main menu.		
