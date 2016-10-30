@@ -104,10 +104,10 @@ A use case (or set of use cases) has these characteristics:
 ##### OpenRCT2 MP
 * **Name:** OpenRCT2 multiplayer.
 * **Actors:** Older Player/New Player, Server.
-* **Goal:** The player should be able play with other people.
+* **Goal:** The user should be able to play with other people.
 * **Pre-conditions:** User must have internet connection.
-* **Description:** By pressing the multi player button, a list with the available servers appears and the player can freely choose.
-* **Post-conditions:** Players can now interact with the park and other players.
+* **Description:** By pressing the multi player button, a list with the available servers appears and the user can freely choose.
+* **Post-conditions:** User can now interact with the park and other players.
 
 ## Domain Model<a name="domain-model"></a>
 ### Brief Definition
