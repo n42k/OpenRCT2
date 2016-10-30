@@ -27,13 +27,7 @@ Researchers at big organizations have found that removing an error just before s
 
 This cost can be explained very simply: if an error is found during the coding stage, it's easy to correct it by fixing a few lines. However, if the error has to do with the overall design of the system, it is much harder to solve, possibly requiring a rewrite of certain features, or even the entire project.
 
-TODO: improve below.
-
-The main problems are:
-* (mis)communication
-* (mis)understanding
-
-That's why requirements must be as much detailed as possible if we intend to avoid this problems.
+The time that should be spent on requirements highly depends on the project. If the requirements are stable, it will take less time than if they were unstable. The size of the project is also an important factor: for smaller projects you may be able to afford programming as you create the requirements, whereas that would be very risky in a larger project.
 
 ##### Requirements Elicitation Process in OpenRCT2
 According to developers, OpenRCT2 attempts to provide everything from the original Roller Coaster Tycoon 2, as well as many improvements and additional features. For example, some of these may include support for modern platforms, an improved interface, improved guest and staff AI, more editing tools, increased limits, and cooperative multi player.
