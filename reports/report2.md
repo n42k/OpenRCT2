@@ -15,6 +15,8 @@
 
 ## Requirements <a name="requirements"></a>
 ### Introduction<a name="introduction"></a>
+
+
 Requirements are important because they are one of the key contributors to the success or failure of projects: if what is needed to be done isn't known, we might end up solving the wrong issue entirely.
 
 If we plan software to be high-quality from the beginning, we have a greater chance of it staying that way rather than another product that doesn't have high-quality as a goal.
@@ -69,7 +71,7 @@ When any developer interested in OpenRCT2 has a new idea for the project, the de
  * Clicking the rotate view 90º button the camera must change 90º clockwise;
  * Pressing the view options button the player can hide parts of the scenery;
  * Pressing the map button, a window must pop-up with the park map see from above.
- 
+
 ### Non-Functional requirements<a name="non-functional-requirements"></a>
 #### User requirements<a name="non-functional-user-requirements"></a>
 * The game must be optimized and, as a consequence, meet a set minimum number of frames per second.
@@ -106,7 +108,7 @@ A use case (or set of use cases) has these characteristics:
  * **Actors:** Older Player/New Player, Server.		
  * **Goal:** The user should be able to play with other people.		
  * **Pre-conditions:** User must have internet connection.		
- * **Description:** By pressing the multi player button, a list with the available servers appears and the user can freely choose.	
+ * **Description:** By pressing the multi player button, a list with the available servers appears and the user can freely choose.
  * **Post-conditions:** User can now interact with the park and other players.		
 
 ## Domain Model<a name="domain-model"></a>
@@ -117,14 +119,14 @@ A "domain model" is, this way, a set of abstractions that help in understanding 
 ### Domain Classes
 * Park
 * Funding
-* Scenarios
-* Guests
+* Scenario
+* Guest
 * Staff
     * Handymen
     * Mechanic
     * Security
-    * Entertainers
-* Attractions
+    * Entertainer
+* Attraction
     * Ride
         * Transport Ride
         * Gentle Ride
@@ -134,7 +136,7 @@ A "domain model" is, this way, a set of abstractions that help in understanding 
     * Shop
     * Stall
     * Toilet
-    * Information Kiosks
+    * Information Kiosk
 * ...
 
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/domain_model.png)
