@@ -24,7 +24,7 @@ If we plan software to be high-quality from the beginning, we have a greater cha
 
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/Relative_cost_to_fix_an_error.png)
 
-**Fig2 -** Cost of fixing errors depending on the phase of the project they were found ("Software Engineering Economics" book from *Barry Boehm*).
+**Img1 -** Cost of fixing errors depending on the phase of the project they were found ("Software Engineering Economics" book from *Barry Boehm*).
 
 Researchers at big organizations have found that removing an error just before starting to code allows 10 to 100 times less costs than when it's done when testing the system or after release. [\[1\]](#reference1)
 
@@ -106,6 +106,8 @@ A use case (or set of use cases) has these characteristics:
 ### Use Case Model
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/UC_offline.png)
 
+**Img2 -** Use cases diagram for the main menu.
+
 ##### OpenRCT2 Main Menu	
  > **Name:** Main menu.		
  > **Actors:** Older Player,New Player.		
@@ -115,6 +117,8 @@ A use case (or set of use cases) has these characteristics:
  > **Post-conditions:** None.	
  
  ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/UC_management.png)
+
+**Img3 -** Use cases diagram inside the main game.
 
 ##### OpenRCT2 Single Player	
  > **Name:** Single Player.		
@@ -154,7 +158,7 @@ A "domain model" is, this way, a set of abstractions that help in understanding 
 
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/domain_model.png)
 
-**Fig4 -** Domain model diagram.
+**Img4 -** Domain model diagram.
 
 ## Contributions
 
