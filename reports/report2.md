@@ -149,7 +149,6 @@ A "domain model" is, this way, a set of abstractions that help in understanding 
     * Stall
     * Toilet
     * Information Kiosk
-* ...
 
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/domain_model.png)
 
