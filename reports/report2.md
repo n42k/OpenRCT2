@@ -102,10 +102,6 @@ A use case (or set of use cases) has these characteristics:
 * Records paths (called scenarios) from trigger events to goals.
 * Is multi-level, so that one use case can use the functionality of another one.
 
-# TODO: turn below to single player
-##### OpenRCT2 MP
-In OpenRCT2 we can easily define a few example use cases. Since there's only one player, there's won't be many actors. However, each player will have many possible interactions with the game.
-
 ### Use Case Model
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/UC_offline.png).
 
