@@ -75,11 +75,13 @@ When any developer interested in OpenRCT2 has a new idea for the project, the de
 * O jogo deve estar optimizado e, por consequência, possuir um número considerável de frames per second;
 
 #### System requirements<a name="non-functional-system-requirements"></a>
+There are no hardware non-functional system requirements in OpenRCT2. However, the original requirements of this type for the original game were:
 * **Processor (CPU):** Pentium III
 * **System memory (RAM):** 64 MB
-* **Hard disk drive(HDD):** 800MB
+* **Hard disk drive(HDDm:** 800MB
 * **Video card (GPU):** 8 MB of VRAM, DirectX 8.1 compatible
-* **OS:** The game may run in different Operating Systems such as Windows, Unix, MacOS.
+
+In terms of operating system, however, OpenRCT2 is multi platform and must run in any of the 3 major operating systems (Windows, macOS and Linux).
 
 ## Use Cases<a name="use-cases"></a>
 ### Brief Definition
