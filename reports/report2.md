@@ -113,7 +113,7 @@ A use case (or set of use cases) has these characteristics:
  > **Description:** By starting the game, the main menu is displayed and the user can freely choose between the options given. <br>
  > **Post-conditions:** None.	
  
- ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/UC_management.png).
+ ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/UC_management.png)
 
 ##### OpenRCT2 Single Player	
  > **Name:** Single Player.		
