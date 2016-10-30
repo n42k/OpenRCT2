@@ -15,7 +15,7 @@
 
 ## Requirements <a name="requirements"></a>
 ### Introduction<a name="introduction"></a>
-
+Requirements are a detailed description of what features a software product should have. They're generally considered to be the first phase of software development.
 
 Requirements are important because they are one of the key contributors to the success or failure of projects: if what is needed to be done isn't known, we might end up solving the wrong issue entirely.
 
