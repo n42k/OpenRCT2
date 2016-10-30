@@ -100,16 +100,27 @@ A use case (or set of use cases) has these characteristics:
 * Records paths (called scenarios) from trigger events to goals.
 * Is multi-level, so that one use case can use the functionality of another one.
 
-![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/Use_cases_diagram.png)
-**Fig3 -** Use cases diagram.
+### Use Case Model
 
-##### OpenRCT2 MP		
- * **Name:** OpenRCT2 multiplayer.		
- * **Actors:** Older Player/New Player, Server.		
- * **Goal:** The user should be able to play with other people.		
- * **Pre-conditions:** User must have internet connection.		
- * **Description:** By pressing the multi player button, a list with the available servers appears and the user can freely choose.
- * **Post-conditions:** User can now interact with the park and other players.		
+![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/UC_offline.png).
+
+##### OpenRCT2 Main Menu	
+ * **Name:** Main menu.		
+ * **Actors:** Older Player,New Player.		
+ * **Goal:** The user should see an user-friendly interface.		
+ * **Pre-conditions:** None.		
+ * **Description:** By starting the game, the main menu is displayed and the user can freely choose between the options given.
+ * **Post-conditions:** None.	
+ 
+ ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/UC_management.png).
+
+##### OpenRCT2 Single Player	
+ * **Name:** Single Player.		
+ * **Actors:** Player.		
+ * **Goal:** The player must try to make a profit and maintain a good park reputation whilst keeping the guests happy.
+ * **Pre-conditions:** None.		
+ * **Description:** The player starts with a pre-defined park and then he tries to manage everything inside it.
+ * **Post-conditions:** Game Won.		
 
 ## Domain Model<a name="domain-model"></a>
 ### Brief Definition
