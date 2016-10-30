@@ -106,16 +106,26 @@ A use case (or set of use cases) has these characteristics:
 ##### OpenRCT2 MP
 In OpenRCT2 we can easily define a few example use cases. Since there's only one player, there's won't be many actors. However, each player will have many possible interactions with the game.
 
-![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/Use_cases_diagram.png)
-**Fig3 -** Use cases diagram.
+### Use Case Model
+![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/UC_offline.png).
 
- * **Name:** OpenRCT2 multiplayer.		
- * **Actors:** Older Player/New Player, Server.		
- * **Goal:** The user should be able to play with other people.		
- * **Pre-conditions:** User must have internet connection.		
- * **Description:** By pressing the multiplayer button, a list with the available servers appears and the user can freely choose.
- * **Post-conditions:** User can now interact with the park and other players.
-# TODO: turn above to single player
+##### OpenRCT2 Main Menu	
+ > **Name:** Main menu.		
+ > **Actors:** Older Player,New Player.		
+ > **Goal:** The user should see an user-friendly interface.		
+ > **Pre-conditions:** None.		
+ > **Description:** By starting the game, the main menu is displayed and the user can freely choose between the options given. <br>
+ > **Post-conditions:** None.	
+ 
+ ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/UC_management.png).
+
+##### OpenRCT2 Single Player	
+ > **Name:** Single Player.		
+ > **Actors:** Player.		
+ > **Goal:** The player must try to make a profit and maintain a good park reputation whilst keeping the guests happy.
+ > **Pre-conditions:** None.		
+ > **Description:** The player starts with a pre-defined park and then he tries to manage everything inside it. <br>
+ > **Post-conditions:** Game Won.		
 
 ## Domain Model<a name="domain-model"></a>
 ### Brief Definition
@@ -150,6 +160,9 @@ A "domain model" is, this way, a set of abstractions that help in understanding 
 **Fig4 -** Domain model diagram.
 
 ## Contributions
+
+All 4 group members have contributed evenly to the report:
+
 * João 'TUTAMKHAMON' Ferreira.
 * Jorge 'Jorge2210' Ferreira.
 * Pedro 'n42k' Amaro.
