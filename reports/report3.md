@@ -12,7 +12,7 @@
  
 ## Logical View<a name="logical_view"></a>
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/logical_view.png)
-Fig1 - Logical View of OpenRTC2
+**Fig1** - Logical View of OpenRTC2
 
 TODO: Pequena descrição da complexidade do logical view
 ## Development View<a name="development_view"></a>
