@@ -23,5 +23,9 @@ O OpenRCT2 devido à sua enorme complexidade, possuí uma enorme interligação 
 ## Deployment View<a name="deployment_view"></a>
  
 ## Process View<a name="process_view"></a>
+The Process view shows tasks and processes that the system has, interfaces to the outside world and/or between components within the system and focuses on the runtime behavior of the system. This model is represented by Activity diagram.
+
+An **Activity diagram** is kinda of a flowchart, as long as it shows the flow from one activity to another.
+
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/ProcessViewModel.png)
 **Fig4** - Process View model.
