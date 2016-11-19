@@ -11,13 +11,13 @@
 ## Introduction<a name="introduction"></a>
  
 ## Logical View<a name="logical_view"></a>
-No contexto do nosso jogo consideramos packages a toda a divisão por pastas dos ficheiros de código. 
-Com base no descrito anteriormente, consideramos que existe ligação de um package para outro package, se no primeiro package existirem ficheiros que incluam ficheiros do segundo package.
+In the context of our game, we consider packages into every division by code files folders.
+According to the above mentioned, we consider that exists a link between one package to another if in the first package there are files that include files from the second package.
 
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/logical_view.png)
 **Fig1** - Logical View of OpenRTC2
 
-O OpenRCT2 devido à sua enorme complexidade, possuí uma enorme interligação entre os seus packages. O facto de todo o jogo ter sido reverse engineered a partir do executável original com base no assembly, ajuda a que neste momento, a maior parte dos packages possuam uma enorme dependência de grande número de outros packages.
+Due to the huge complexity of the OpenRCT2, there’s an interconnection between its packages. The fact that the whole game has been reverse engineered from the original executable based on the assembly makes that the most part of the packages have a huge dependency of great number of other packages.
 ## Development View<a name="development_view"></a>
    
 ## Deployment View<a name="deployment_view"></a>
