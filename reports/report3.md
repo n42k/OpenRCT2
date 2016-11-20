@@ -21,6 +21,8 @@ Due to the huge complexity of the OpenRCT2, there’s an interconnection between
 ## Development View<a name="development_view"></a>
    
 ## Deployment View<a name="deployment_view"></a>
+A deployment view model allows us to understand the hardware and sotware needs of a program.
+For OpenRTC2 the deployement model is very simple as it only needs a working computer for it to run. The deployment diagram for the game looks like this:
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/Deployment%20View.png)
 **Fig3** - Deployment view - OpenRTC2
  
