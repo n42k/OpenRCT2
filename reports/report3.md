@@ -27,6 +27,7 @@ In the context of our game, since it uses the C programming language, we have co
 Thus, we consider that there is a link between one package and another if in first package there are files that include files from the second package.
 
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/logical_view.png)
+
 **Fig1** - Logical View of OpenRTC2
 
 Due to the huge complexity of the OpenRCT2, there’s a big interconnection between its packages. The fact that the whole game has been reverse engineered from the original executable based on the assembly, makes it so that most part of the packages have a huge dependency on a great number of other packages.
@@ -41,12 +42,14 @@ The development view for OpenRCT2 is quite simple, as it only depends on a few l
 ## Deployment View<a name="deployment_view"></a>
 For OpenRTC2 the deployment view is very simple as it only needs a working computer for it to run.
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/Deployment%20View.png)
+
 **Fig3** - Deployment view - OpenRTC2
 
 ## Process View<a name="process_view"></a>
-In OpenRCT2, the process view model focuses on in-game interactions, interfaces and it can be easily understood by analysing the diagram due to the fact that recursion and activities flow is quite similiar to other games.
+The Process View model for OpenRCT2 has all the in-game interactions and user interfaces. It also shows that graphics rendering and sound can be done in parallel if desired.
 
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/ProcessViewModel.png)
+
 **Fig4** - Process View model.
 
 ## Contributions
