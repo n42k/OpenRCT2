@@ -44,7 +44,7 @@ For OpenRTC2 the deployment view is very simple as it only needs a working compu
 **Fig3** - Deployment view - OpenRTC2
 
 ## Process View<a name="process_view"></a>
-In OpenRCT2, the process view model focuses on in-game interactions, interfaces and it can be easily understood by analysing the diagram due to the fact that recursion and activities flow is quite similiar to other games.
+The Process View model for OpenRCT2, has all the interactions in-game and user interfaces, so it is quite similiar to other games.
 
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/ProcessViewModel.png)
 **Fig4** - Process View model.
