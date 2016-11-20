@@ -46,11 +46,7 @@ For OpenRTC2 the deployment view is very simple as it only needs a working compu
 **Fig3** - Deployment view - OpenRTC2
 
 ## Process View<a name="process_view"></a>
-<<<<<<< HEAD
 The Process View model for OpenRCT2 has all the in-game interactions and user interfaces. It also shows that graphics rendering and sound can be done in parallel if desired.
-=======
-The Process View model for OpenRCT2, has all the interactions in-game and user interfaces, so it is quite similiar to other games.
->>>>>>> 8751629f77a9379a2ca1f10f3fc91fa0f0ac620d
 
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/ProcessViewModel.png)
 
