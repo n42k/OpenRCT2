@@ -13,7 +13,12 @@ Software architecture is a metaphor for real world building architecture. Just l
 
 The 4+1 Architectural View Model, as designed by Philippe Kruchten, is a methodology to draw diagrams to represent a software system. It tries to separate the concerns of the various stakeholders by providing separate diagrams instead of a single one, as was often the case when the author described this method. As the name implies, it consists of 5 diagrams: the logical view, the process view, the physical view, the development view and a view that joins the previous 4, which can be called a use cases view.
 
-*TODO: describe each view in turn.*
+In simple terms, each of these views is concerned about the following:
+* The Logical View: this view is concerned with the functional requirements of the software system, and abstracts them into software packages/classes.
+* The Process View: this view handles some non-functional requirements, such as performance or availability, and the data flow of the program, so that we can see what could be run in parallel, for example. This view can be represented by an Activity Diagram, which shows the flow from one activity to another.
+* The Physical View: this view takes care of mainly non-functional requirements, such as scalability, performance, throughput and availability. It maps a piece of software to the hardware that will run it, and the flow of data that the hardware/software will pass between each other. It can also be called the Deployment View, which we did on this report.
+* The Development View: this view divides the program in small subsystems that can be programmed independently by a small group of developers. This will later be used to assign tasks to teams and estimate costs, for example.
+* The Use Cases View: a redundant view, considering we already have the other 4 ones, but it will serve as a simple diagram that can be followed to create a prototype of the software package.
 
 In OpenRCT2, we do not believe that any specific software architecture was followed. As we can see in the Logical View, there's lots of dependencies between packages, which might have been able to be heavily simplified. There can also be an implicit layered architecture, with the lower level code at the bottom, dealing with graphics and sound and other low level tasks, but that is not clearly specified, as every 'package' is at the same level.
 
