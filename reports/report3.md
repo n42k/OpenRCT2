@@ -27,6 +27,7 @@ According to the above mentioned, we consider that there is a link between one p
 Due to the huge complexity of the OpenRCT2, there’s a big interconnection between its packages. The fact that the whole game has been reverse engineered from the original executable based on the assembly, makes it so that most part of the packages have a huge dependency on a great number of other packages.
 ## Development View<a name="development_view"></a>
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/ComponentDiagram.png)
+
 **Fig2** - Development View - Component Diagram - OpenRCT2
 
 ## Deployment View<a name="deployment_view"></a>
