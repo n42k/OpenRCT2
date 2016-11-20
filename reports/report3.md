@@ -49,6 +49,8 @@ An **Activity diagram** is like a flowchart, as it shows the flow from one activ
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/ProcessViewModel.png)
 **Fig4** - Process View model.
 
+For OpenRCT2, the process view model focuses on In-Game interactions, interfaces and it can be easily understood by analysing the diagram due to the fact that recursion and activities flow is quite similiar to other games.
+
 ## Contributions
 
 All 4 group members have contributed evenly to the report:
