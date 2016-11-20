@@ -59,3 +59,9 @@ All 4 group members have contributed evenly to the report:
 * Jorge 'Jorge2210' Ferreira.
 * Pedro 'n42k' Amaro.
 * Pedro 'Oshnira' Lima.
+
+## Bibliography
+
+McConnell, Steve (June 2004). "Design in Construction". Code Complete (2nd ed.). Microsoft Press. p. 29. ISBN 978-0-7356-1967-8. "Chapter 3: Measure Twice, Cut Once: Upstream Prerequisites" 
+
+Philippe Kruchten (November 1995). "Architectural Blueprints – the 4+1 View Model of Software Architecture". IEEE Software. 12 (6). pp. 42–50
