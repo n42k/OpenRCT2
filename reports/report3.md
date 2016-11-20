@@ -23,15 +23,17 @@ In simple terms, each of these views is concerned about the following:
 In OpenRCT2, we do not believe that any specific software architecture was followed. As we can see in the Logical View, there's lots of dependencies between packages, which might have been able to be heavily simplified. There can also be an implicit layered architecture, with the lower level code at the bottom, dealing with graphics and sound and other low level tasks, but that is not clearly specified, as every 'package' is at the same level.
 
 ## Logical View<a name="logical_view"></a>
-In the context of our game, since it uses the C programming language, we have considered a package a folder which contains source code files.
+In the context of our game, since it uses the C programming language, we have considered a package a folder which contains C source code files.
 Thus, we consider that there is a link between one package and another if in first package there are files that include files from the second package.
 
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/logical_view.png)
 **Fig1** - Logical View of OpenRTC2
 
 Due to the huge complexity of the OpenRCT2, there’s a big interconnection between its packages. The fact that the whole game has been reverse engineered from the original executable based on the assembly, makes it so that most part of the packages have a huge dependency on a great number of other packages.
+
 ## Development View<a name="development_view"></a>
 The development view for OpenRCT2 is quite simple, as it only depends on a few libraries for running. The Twitch integration was also added in this diagram, since it was fitting (and this diagram only).
+
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/ComponentDiagram.png)
 
 **Fig2** - Development View - Component Diagram - OpenRCT2
