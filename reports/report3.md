@@ -36,20 +36,15 @@ Due to the huge complexity of the OpenRCT2, there’s a big interconnection betw
 **Fig2** - Development View - Component Diagram - OpenRCT2
 
 ## Deployment View<a name="deployment_view"></a>
-A deployment view model allows us to understand the hardware and sotware needs of a program.
-For OpenRTC2 the deployement model is very simple as it only needs a working computer for it to run. The deployment diagram for the game looks like this:
+For OpenRTC2 the deployment view is very simple as it only needs a working computer for it to run.
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/Deployment%20View.png)
 **Fig3** - Deployment view - OpenRTC2
 
 ## Process View<a name="process_view"></a>
-The Process view shows tasks and processes that the system has, interfaces to the outside world and/or between components within the system and focuses on the runtime behavior of the system. This model is represented by Activity diagram.
-
-An **Activity diagram** is like a flowchart, as it shows the flow from one activity to another.
+In OpenRCT2, the process view model focuses on In-Game interactions, interfaces and it can be easily understood by analysing the diagram due to the fact that recursion and activities flow is quite similiar to other games.
 
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/ProcessViewModel.png)
 **Fig4** - Process View model.
-
-For OpenRCT2, the process view model focuses on In-Game interactions, interfaces and it can be easily understood by analysing the diagram due to the fact that recursion and activities flow is quite similiar to other games.
 
 ## Contributions
 
@@ -62,6 +57,6 @@ All 4 group members have contributed evenly to the report:
 
 ## Bibliography
 
-McConnell, Steve (June 2004). "Design in Construction". Code Complete (2nd ed.). Microsoft Press. p. 29. ISBN 978-0-7356-1967-8. "Chapter 3: Measure Twice, Cut Once: Upstream Prerequisites" 
+McConnell, Steve (June 2004). "Design in Construction". Code Complete (2nd ed.). Microsoft Press. p. 29. ISBN 978-0-7356-1967-8. "Chapter 3: Measure Twice, Cut Once: Upstream Prerequisites"
 
 Philippe Kruchten (November 1995). "Architectural Blueprints – the 4+1 View Model of Software Architecture". IEEE Software. 12 (6). pp. 42–50
