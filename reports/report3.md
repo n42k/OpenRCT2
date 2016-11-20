@@ -14,10 +14,10 @@ Software architecture is a metaphor for real world building architecture. Just l
 The 4+1 Architectural View Model, as designed by Philippe Kruchten, is a methodology to draw diagrams to represent a software system. It tries to separate the concerns of the various stakeholders by providing separate diagrams instead of a single one, as was often the case when the author described this method. As the name implies, it consists of 5 diagrams: the logical view, the process view, the physical view, the development view and a view that joins the previous 4, which can be called a use cases view.
 
 In simple terms, each of these views is concerned about the following:
-* The Logical View: this view is concerned with the functional requirements of the software system, and abstracts them into software packages/classes.
+* The Logical View: this view is concerned with the functional requirements of the software system, and abstracts them into software packages/classes. It can be represented by a package diagram, for example.
 * The Process View: this view handles some non-functional requirements, such as performance or availability, and the data flow of the program, so that we can see what could be run in parallel, for example. This view can be represented by an Activity Diagram, which shows the flow from one activity to another.
-* The Physical View: this view takes care of mainly non-functional requirements, such as scalability, performance, throughput and availability. It maps a piece of software to the hardware that will run it, and the flow of data that the hardware/software will pass between each other. It can also be called the Deployment View, which we did on this report.
-* The Development View: this view divides the program in small subsystems that can be programmed independently by a small group of developers. This will later be used to assign tasks to teams and estimate costs, for example.
+* The Physical View: this view takes care of mainly non-functional requirements, such as scalability, performance, throughput and availability. It maps a piece of software to the hardware that will run it, and the flow of data that the hardware/software will pass between each other. It can also be called the Deployment View, which we did on this report. It can be represented by a deployment diagram.
+* The Development View: this view divides the program in small subsystems that can be programmed independently by a small group of developers. This will later be used to assign tasks to teams and estimate costs, for example. It may be represented by a component diagram.
 * The Use Cases View: a redundant view, considering we already have the other 4 ones, but it will serve as a simple diagram that can be followed to create a prototype of the software package.
 
 In OpenRCT2, we do not believe that any specific software architecture was followed. As we can see in the Logical View, there's lots of dependencies between packages, which might have been able to be heavily simplified. There can also be an implicit layered architecture, with the lower level code at the bottom, dealing with graphics and sound and other low level tasks, but that is not clearly specified, as every 'package' is at the same level.
@@ -31,6 +31,7 @@ According to the above mentioned, we consider that there is a link between one p
 
 Due to the huge complexity of the OpenRCT2, there’s a big interconnection between its packages. The fact that the whole game has been reverse engineered from the original executable based on the assembly, makes it so that most part of the packages have a huge dependency on a great number of other packages.
 ## Development View<a name="development_view"></a>
+The development view for OpenRCT2 is quite simple, as it only depends on a few libraries for running. The Twitch integration was also added in this diagram, since it was fitting (and this diagram only).
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/ComponentDiagram.png)
 
 **Fig2** - Development View - Component Diagram - OpenRCT2
@@ -41,13 +42,12 @@ For OpenRTC2 the deployment view is very simple as it only needs a working compu
 **Fig3** - Deployment view - OpenRTC2
 
 ## Process View<a name="process_view"></a>
-In OpenRCT2, the process view model focuses on In-Game interactions, interfaces and it can be easily understood by analysing the diagram due to the fact that recursion and activities flow is quite similiar to other games.
+In OpenRCT2, the process view model focuses on in-game interactions, interfaces and it can be easily understood by analysing the diagram due to the fact that recursion and activities flow is quite similiar to other games.
 
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/ProcessViewModel.png)
 **Fig4** - Process View model.
 
 ## Contributions
-
 All 4 group members have contributed evenly to the report:
 
 * João 'TUTAMKHAMON' Ferreira.
