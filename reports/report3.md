@@ -33,3 +33,12 @@ An **Activity diagram** is like a flowchart, as it shows the flow from one activ
 
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/ProcessViewModelFinal.png)
 **Fig4** - Process View model.
+
+## Contributions
+
+All 4 group members have contributed evenly to the report:
+
+* João 'TUTAMKHAMON' Ferreira.
+* Jorge 'Jorge2210' Ferreira.
+* Pedro 'n42k' Amaro.
+* Pedro 'Oshnira' Lima.
