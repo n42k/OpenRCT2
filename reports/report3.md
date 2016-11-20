@@ -41,7 +41,7 @@ The Process view shows tasks and processes that the system has, interfaces to th
 
 An **Activity diagram** is like a flowchart, as it shows the flow from one activity to another.
 
-![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/ProcessViewModelFinal.png)
+![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/ProcessViewModel.png)
 **Fig4** - Process View model.
 
 ## Contributions
