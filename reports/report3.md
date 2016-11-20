@@ -23,8 +23,8 @@ In simple terms, each of these views is concerned about the following:
 In OpenRCT2, we do not believe that any specific software architecture was followed. As we can see in the Logical View, there's lots of dependencies between packages, which might have been able to be heavily simplified. There can also be an implicit layered architecture, with the lower level code at the bottom, dealing with graphics and sound and other low level tasks, but that is not clearly specified, as every 'package' is at the same level.
 
 ## Logical View<a name="logical_view"></a>
-In the context of our game, we consider packages into every division by code files folders.
-According to the above mentioned, we consider that there is a link between one package and another if in the first package there are files that include files from the second package.
+In the context of our game, since it uses the C programming language, we have considered a package a folder which contains source code files.
+Thus, we consider that there is a link between one package and another if in first package there are files that include files from the second package.
 
 ![alt tag](https://raw.githubusercontent.com/n42k/OpenRCT2/develop/reports/Images/logical_view.png)
 **Fig1** - Logical View of OpenRTC2
