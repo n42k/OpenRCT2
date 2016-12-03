@@ -23,6 +23,23 @@ Software testability can be seen as a prediction of the probability that existin
 
 **Heterogeneity:**
 
+
+## Test Statistics and analytics<a name="test_sa"></a>
+Hoje em dia, escrever código de teste e executar esse mesmo código em paralelo com a construção do software é considerado um bom hábito. Este código de teste, quando usado corretamente, pode ajudar a interpretar o código do programa e a respetiva arquitectura.
+Um aspeto muito importante, relativo à existência de código de teste, é que estes apenas nos indicam se existem bugs no software, mas caso não sejam indicados bugs não significa que não possam existir.
+O processo de desenvolvimento de software Test-driven development (TDD), baseia-se neste facto. Os requisitos são transformados em casos de testes e de seguida é realizado o fragmento de código do programa que tem de passar estes mesmos testes.
+
+Existem diferentes fases de teste do software, nos quais se salientam:
+ * Unit testing: O principal objetivo é testar o mais pequeno conjunto de software da aplicação possível. Normalmente relacionado com os métodos do software;
+ * Integration testing: Fase na qual os diferentes módulos do software são juntos e testados em conjunto;
+ * System testing: Fase de teste de software no qual o software, já completo e integrado é testado. Normalmente relacionado com a interface do software;
+ * Acceptance testing: Fase no qual o sistema é testado para aceitação. O objetivo desta fase é verificar a conformidade do sistema com os requisitos iniciais.
+ * Regression testing: Fase responsável por verificar se o software que já foi desenvolvido anteriormente ainda continua a executar corretamente e sem quaisquer tipo de erros.
+ 
+Devido ao facto do nosso projeto não ter testes ao código do software, não foi possível obter as suas estatísticas (número de casos de teste, cobertura, etc). Foi então realizada uma análise à base de métricas estáticas.
+A análise à base de métricas estáticas pode ser visto como a examinação e análise de um programa para verificação da sua qualidade.
+
+
 ## Contributions
 All 4 group members have contributed evenly to the report:
 
