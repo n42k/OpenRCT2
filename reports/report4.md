@@ -26,7 +26,9 @@ Software testability can be seen as a prediction of the probability that existin
 
 ## Test Statistics and analytics<a name="test_sa"></a>
 Hoje em dia, escrever código de teste e executar esse mesmo código em paralelo com a construção do software é considerado um bom hábito. Este código de teste, quando usado corretamente, pode ajudar a interpretar o código do programa e a respetiva arquitectura.
+
 Um aspeto muito importante, relativo à existência de código de teste, é que estes apenas nos indicam se existem bugs no software, mas caso não sejam indicados bugs não significa que não possam existir.
+
 O processo de desenvolvimento de software Test-driven development (TDD), baseia-se neste facto. Os requisitos são transformados em casos de testes e de seguida é realizado o fragmento de código do programa que tem de passar estes mesmos testes.
 
 Existem diferentes fases de teste do software, nos quais se salientam:
@@ -37,6 +39,7 @@ Existem diferentes fases de teste do software, nos quais se salientam:
  * Regression testing: Fase responsável por verificar se o software que já foi desenvolvido anteriormente ainda continua a executar corretamente e sem quaisquer tipo de erros.
  
 Devido ao facto do nosso projeto não ter testes ao código do software, não foi possível obter as suas estatísticas (número de casos de teste, cobertura, etc). Foi então realizada uma análise à base de métricas estáticas.
+
 A análise à base de métricas estáticas pode ser visto como a examinação e análise de um programa para verificação da sua qualidade.
 
 
