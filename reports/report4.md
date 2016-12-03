@@ -15,7 +15,7 @@ Software testability can be seen as a prediction of the probability that existin
 
 **Controllability:**  The more easily we can provide inputs to the software, the more easily we can test the software. This implies that software is more testable when the tester has the ability to easily control the software in order to provide the test inputs. This controllability applies to the tests as well: tests should be easily specifiable, automated, and reproducible.
 
-**Understandability:**
+**Understandability:** is the degree to which the component under test is well documented or self-explaining. Therefore, if we pretend to have a flexible and easily understood software, user documentation must be clearly written.
 
 **Isolate ability:**
 
