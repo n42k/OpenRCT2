@@ -23,6 +23,14 @@ Software testability can be seen as a prediction of the probability that existin
 
 **Heterogeneity:**
 
+## Contributions
+All 4 group members have contributed evenly to the report:
+
+* João 'TUTAMKHAMON' Ferreira.
+* Jorge 'Jorge2210' Ferreira.
+* Pedro 'n42k' Amaro.
+* Pedro 'Oshnira' Lima.
+
 ## Bibliography
 Marciniak, John  (January 2002). *Encyclopedia of Software Engineering*. 2nd Edition. ISBN 978-0-471-37737-5.
 
