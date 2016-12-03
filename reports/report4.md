@@ -39,10 +39,9 @@ Existem diferentes fases de teste do software, nos quais se salientam:
  
 ## Test Statistics and analytics<a name="test_sa"></a>
 
-Devido ao facto do nosso projeto não ter testes ao código do software, não foi possível obter as suas estatísticas (número de casos de teste, cobertura, etc). Foi então realizada uma análise à base de métricas estáticas.
+Duo to the fact that our project doesn't have tests to the software code, it isn't possible to obtain statistics (number of test cases, coverage, etc). An analysis based on static metrics was then made.
 
-A análise à base de métricas estáticas pode ser visto como a examinação e análise de um programa para verificação da sua qualidade.
-
+The analysis based on static metrics can be seen as the examination of a program to verify its quality.
 
 ## Contributions
 All 4 group members have contributed evenly to the report:
