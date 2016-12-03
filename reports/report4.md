@@ -24,9 +24,9 @@ The idea behind it, is to keep the code of each concern separated in order to fa
 
 **Heterogeneity:** can be seen as the use of diverse test methods and tools in parallel by taking the maximum advantage of processor/cores.
 
-Hoje em dia, escrever código de teste e executar esse mesmo código em paralelo com a construção do software é considerado um bom hábito. Este código de teste, quando usado corretamente, pode ajudar a interpretar o código do programa e a respetiva arquitectura.
+Nowadays, writing test code and running that same code in parallel with the writting of the software is considered a good habit. This test code, when used correctly, can help the programmer to interpret the program code and its architecture.
 
-Um aspeto muito importante, relativo à existência de código de teste, é que estes apenas nos indicam se existem bugs no software, mas caso não sejam indicados bugs não significa que não possam existir.
+Testing the software code can tell us if there are bugs or problems, but in case that doens't report us a bug, we can't assume that there isn't bugs in the software.
 
 Test-driven development (TDD) is one example of a process of software development that is based on code tests. The requirements are transformed into test cases, then the code fragment that has to pass these tests is performed.
 
