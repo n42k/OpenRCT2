@@ -31,11 +31,11 @@ Test cases can provide us information about bugs or minor problems within the co
 Test-driven development (TDD) is one example of a process of software development that is based on code tests. The requirements are transformed into test cases, then the code fragment that has to pass these tests is performed.
 
 There are different phases of software testing, such as:
- * Unit testing: O principal objetivo é testar o mais pequeno conjunto de software da aplicação possível. Normalmente relacionado com os métodos do software;
- * Integration testing: Fase na qual os diferentes módulos do software são juntos e testados em conjunto;
- * System testing: Fase de teste de software no qual o software, já completo e integrado é testado. Normalmente relacionado com a interface do software;
- * Acceptance testing: Fase no qual o sistema é testado para aceitação. O objetivo desta fase é verificar a conformidade do sistema com os requisitos iniciais.
- * Regression testing: Fase responsável por verificar se o software que já foi desenvolvido anteriormente ainda continua a executar corretamente e sem quaisquer tipo de erros.
+ * **Unit testing**: O principal objetivo é testar o mais pequeno conjunto de software da aplicação possível. Normalmente relacionado com os métodos do software;
+ * **Integration testing**: Fase na qual os diferentes módulos do software são juntos e testados em conjunto;
+ * **System testing**: Fase de teste de software no qual o software, já completo e integrado é testado. Normalmente relacionado com a interface do software;
+ * **Acceptance testing**: Fase no qual o sistema é testado para aceitação. O objetivo desta fase é verificar a conformidade do sistema com os requisitos iniciais.
+ * **Regression testing**: Fase responsável por verificar se o software que já foi desenvolvido anteriormente ainda continua a executar corretamente e sem quaisquer tipo de erros.
  
 ## Test Statistics and analytics<a name="test_sa"></a>
 
