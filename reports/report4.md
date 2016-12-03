@@ -15,11 +15,12 @@ Software testability can be seen as a prediction of the probability that existin
 
 **Controllability:**  The more easily we can provide inputs to the software, the more easily we can test the software. This implies that software is more testable when the tester has the ability to easily control the software in order to provide the test inputs. This controllability applies to the tests as well: tests should be easily specifiable, automated, and reproducible.
 
-**Understandability:** is the degree to which the component under test is well documented or self-explaining. Therefore, if we pretend to have a flexible and easily understood software, user documentation must be clearly written.
+**Understandability:** Is the degree to which the component under test is well documented or self-explaining. Therefore, if we pretend to have a flexible and easily understood software, user documentation must be clearly written.
 
-**Isolateability:** is the degree to which the component under test can be tested in isolation. By breaking down the system into various sections we might be able to spot defects easily in isolation, this isolation can be useful when some particular bugs are really difficult to locate. 
+**Isolateability:** Is the degree to which the component under test can be tested in isolation. By breaking down the system into various sections we might be able to spot defects easily in isolation, this isolation can be useful when some particular bugs are really difficult to locate. 
 
-**Separation of concerns:**
+**Separation of concerns:** Concerns are different modules of the software. The logic of a program and his interface are examples of different concerns.
+The basis of the separation of concerns is to keep the code of each concern separated to facilitate the test of the code, the debug and possible changes in the code.
 
 **Heterogeneity:**
 
