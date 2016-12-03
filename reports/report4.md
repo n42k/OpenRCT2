@@ -39,7 +39,7 @@ Existem diferentes fases de teste do software, nos quais se salientam:
  
 ## Test Statistics and analytics<a name="test_sa"></a>
 
-Duo to the fact that our project doesn't have tests to the software code, it isn't possible to obtain statistics (number of test cases, coverage, etc). An analysis based on static metrics was then made.
+Duo to the fact that our project doesn't have tests to support the software code, it isn't possible to obtain statistics (number of test cases, coverage, etc). An analysis based on static metrics was then made.
 
 The analysis based on static metrics can be seen as the examination of a program to verify its quality.
 
