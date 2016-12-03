@@ -19,8 +19,8 @@ Software testability can be seen as a prediction of the probability that existin
 
 **Isolateability:** Is the degree to which the component under test can be tested in isolation. By breaking down the system into various sections we might be able to spot defects easily in isolation, this isolation can be useful when some particular bugs are really difficult to locate. 
 
-**Separation of concerns:** Concerns are different modules of the software. The logic of a program and his interface are examples of different concerns.
-The basis of the separation of concerns is to keep the code of each concern separated to facilitate the test of the code, the debug and possible changes in the code.
+**Separation of concerns:** Concerns are different modules of the software. For instance, the logic of a program and his interface are examples of different concerns.
+The idea behind it, is to keep the code of each concern separated in order to facilitate the code testing, debugging process and possible changes in the code.
 
 **Heterogeneity:**
 
