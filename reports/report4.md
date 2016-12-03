@@ -28,9 +28,9 @@ Hoje em dia, escrever código de teste e executar esse mesmo código em paralelo
 
 Um aspeto muito importante, relativo à existência de código de teste, é que estes apenas nos indicam se existem bugs no software, mas caso não sejam indicados bugs não significa que não possam existir.
 
-O processo de desenvolvimento de software Test-driven development (TDD), baseia-se neste facto. Os requisitos são transformados em casos de testes e de seguida é realizado o fragmento de código do programa que tem de passar estes mesmos testes.
+Test-driven development (TDD) is one example of a process of software development that is based on code tests. The requirements are transformed into test cases, then the code fragment that has to pass these tests is performed.
 
-Existem diferentes fases de teste do software, nos quais se salientam:
+There are different phases of software testing, such as:
  * Unit testing: O principal objetivo é testar o mais pequeno conjunto de software da aplicação possível. Normalmente relacionado com os métodos do software;
  * Integration testing: Fase na qual os diferentes módulos do software são juntos e testados em conjunto;
  * System testing: Fase de teste de software no qual o software, já completo e integrado é testado. Normalmente relacionado com a interface do software;
