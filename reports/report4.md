@@ -17,7 +17,7 @@ Software testability can be seen as a prediction of the probability that existin
 
 **Understandability:** is the degree to which the component under test is well documented or self-explaining. Therefore, if we pretend to have a flexible and easily understood software, user documentation must be clearly written.
 
-**Isolate ability:**
+**Isolateability:** is the degree to which the component under test can be tested in isolation. By breaking down the system into various sections we might be able to spot defects easily in isolation, this isolation can be useful when some particular bugs are really difficult to locate. 
 
 **Separation of concerns:**
 
