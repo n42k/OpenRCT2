@@ -26,7 +26,7 @@ The idea behind it, is to keep the code of each concern separated in order to fa
 
 Nowadays, writing test code and running that same code in parallel with the writting of the software is considered a good habit. This test code, when used correctly, can help the programmer to interpret the program code and its architecture.
 
-Testing the software code can tell us if there are bugs or problems, but in case that doens't report us a bug, we can't assume that there isn't bugs in the software.
+Test cases can provide us information about bugs or minor problems within the code, however, if the test result was positive, we may not be able to assume that there aren't any bugs.
 
 Test-driven development (TDD) is one example of a process of software development that is based on code tests. The requirements are transformed into test cases, then the code fragment that has to pass these tests is performed.
 
