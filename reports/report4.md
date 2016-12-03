@@ -22,7 +22,7 @@ Software testability can be seen as a prediction of the probability that existin
 **Separation of concerns:** Concerns are different modules of the software. For instance, the logic of a program and his interface are examples of different concerns.
 The idea behind it, is to keep the code of each concern separated in order to facilitate the code testing, debugging process and possible changes in the code.
 
-**Heterogeneity:**
+**Heterogeneity:** can be seen as the use of diverse test methods and tools in parallel.
 
 Hoje em dia, escrever código de teste e executar esse mesmo código em paralelo com a construção do software é considerado um bom hábito. Este código de teste, quando usado corretamente, pode ajudar a interpretar o código do programa e a respetiva arquitectura.
 
