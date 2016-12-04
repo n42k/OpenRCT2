@@ -43,6 +43,18 @@ Due to the fact that our project doesn't have tests to support the software code
 
 The analysis based on static metrics can be seen as the examination of a program to verify its quality.
 
+## Bug Identification<a name="bug_identification"></a>
+
+While originally we intended to go through the identified issues at the gitHub repository and choose one to fix, we ended up finding an unidentified bug by ourselves while analysing the code. This bug derives from the misuse of a Windows function, namely [GetLocaleInfo](https://msdn.microsoft.com/en-us/library/windows/desktop/dd318101).
+The above mentioned function is used to retrieve information about a [Locale](https://msdn.microsoft.com/en-us/library/windows/desktop/dd373763) which can then be used to affect the operation of a program.
+In this case, this function was used with the intention of finding the standard measurement system for temperature in the users' country. The problem is that whoever used this function in the code thought it would return a country id, which led them to then compare the return value to the ids of countries that use the fahrenheit measurement system in a switch statement as a way to find out which measurement system they use. This is an incorrect way of using the function.
+
+### Correcting it:
+The function when called with the correct arguments (which they were doing): `GetLocaleInfo(LOCALE_USER_DEFAULT,	LOCALE_IMEASURE | LOCALE_RETURN_NUMBER,	(PSTR)&fahrenheit, sizeof(country))`, returns 1 if the current country uses the "United States system" of temperature measurement (fahrenheit) and 0 if the country uses the metric system (celsius). This means that the switch statement could simply be replaced with an if/else statement for the return value of the function. This way we are correctly identifying which countries use which temperature measurement system.
+
+### Impact
+As said above, this is a Windows only function, meaning this bug-fix will only affect Windows OS based systems since other systems (Linux/Mac) will not use this function.
+
 ## Contributions
 All 4 group members have contributed evenly to the report:
 
