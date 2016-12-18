@@ -19,9 +19,7 @@ Amongst the 7 metrics it doesn't comply with, we can highlight a few of the most
 
 **Writing Simple Units of Code**: by reducing the number of branching statements in our code, we can reduce its inherent complexity. If a unit has too many branching points, we can improve it the same way we solved the problem above: taking a few points to another unit. In OpenRCT2, around 50% of units have over 10 branching points. The worst offender in its codebase has 114 branching points (the surface_paint function in paint/map_element/surface.c). By refactoring the worst issues into smaller units, we can greatly improve the maintainability of the codebase.
 
-**Simple Units of Code** makes it easier to modify and test.
-
-**Code Written Once** avoids code and error multiplication.
+**Write Code Once** because when code is copied, bugs need to be fixed in multiple places and as we can see, in OpenRCT2, there is a lot of duplicated code. This is both ineficient and error-prone.
 
 **Separate Concerns in Modules** identify and extract responsibilities of large modules to separate modules and hide implementation details behind interfaces.
 
