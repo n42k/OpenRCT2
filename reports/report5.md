@@ -31,7 +31,11 @@ Amongst the 7 metrics it doesn't comply with, we can highlight a few of the most
 
 **Write Clean Code**: Clean code is more maintainable.
 
-**Codebase Small** maintainability slightly increases.
+**Keep Your Codebase Small** Keeping your codebase small improves maintainability, as it's less work to make structural changes in a smaller codebase and in order to prevent this, we must refactor existing code, so it has the same funcionality but with less code volume.
+The volume of OpenRCT2 is equivalent a 21.8 man-years, slightly above the 20 man-years mark cited by [bettercodehub](https://bettercodehub.com).
+
+
+
 
 Discuss Software Maintanability using the SIG metrics here.
 
