@@ -21,9 +21,9 @@ Amongst the 7 metrics it doesn't comply with, we can highlight a few of the most
 
 **Write Code Once**: Writing code once is relatively important for maintenance: if a bug appears, and the code is properly organized, there is only a need to fix it in one place. Thus, we must avoid duplication of code at all costs. According to SIG, we can reduce duplication by extracting shared code, either to a new unit or to a superclass. In OpenRCT2, there is a lot of modules that not obey this metric, but the worst is track_data.c (in ride/track_data.c).
 
-**Keep Unit Interfaces Small **
-
-**Separate Concerns in Modules** identify and extract responsibilities of large modules to separate modules and hide implementation details behind interfaces.
+**Keep Unit Interfaces Small ** Keeping the number of parameters low makes units easier to understand and reuse. According to [bettercodehub](https://bettercodehub.com) the limit number of parameters per unit must be at most 4. Clearly, OpenRCT2 doesn't follow this, as long as it has a large number of units with more than 6 parameters.
+ 
+**Separate Concerns in Modules** By doing this separation in modules it turns out to be easier to understand the code and consequently, it minimizes the cost associated to the changes. If we want to follow this "rule", we must ,firstly, identify and  then extract responsibilities of large modules to separate modules and hide implementation details behind interfaces.
 
 **Automate Tests**: Automating tests for the codebase makes development more predictable and less risky. We must add tests for existing code every time we change it. According to SIG, in average, we must have at least 50% of the total lines of production code. In OpenRCT2, there are 250.498 of code lines, with only 2,338 of lines of test that makes only 1% test code percentage which shows that this metric fails.
 
