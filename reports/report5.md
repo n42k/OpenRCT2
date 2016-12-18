@@ -29,7 +29,7 @@ Amongst the 7 metrics it doesn't comply with, we can highlight a few of the most
 
 **Couple Architecture Components Loosely** components makes it easier to maintain components in isolation.
 
-**Automate Tests**: Automating tests for the codebase makes development more predictable and less risky. We must add tests for existing code every time we change it. According to SIG, in average, we must have at least 50% of the total lines of production code. In OpenRCT2, there are 250.498 of code lines, with only 2,338 of lines of test that makes only 1% test code percentage.
+**Automate Tests**: Automating tests for the codebase makes development more predictable and less risky. We must add tests for existing code every time we change it. According to SIG, in average, we must have at least 50% of the total lines of production code. In OpenRCT2, there are 250.498 of code lines, with only 2,338 of lines of test that makes only 1% test code percentage which shows that this metric fails.
 
 **Write Clean Code**: Clean code is more maintainable.
 
