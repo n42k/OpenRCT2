@@ -9,13 +9,21 @@
 
 The ease or difficulty with which a software system can be modified is known as maintainability. The maintainability of a software system is determined by properties of its source code.
 
-**Short Units of Code** in order to be easier to understand.
+[![BCH compliance](https://bettercodehub.com/edge/badge/n42k/OpenRCT2)](https://bettercodehub.com)
+
+As can be seen in the [bettercodehub](https://bettercodehub.com) website, OpenRCT2 complies with 3 of their metrics. Although that doesn't seem too good, it does line up with what the OpenRCT2 developers have been saying: it is in need of a major refactor.
+
+Amongst the 7 metrics it doesn't comply with, we can highlight a few of the most important ones:
+
+**Writing Short Units of Code**: SIG recommends writing units with at most 15 lines of code and, if this limit is surpassed, to decrease the size of units by dividing them into more units. Over 50% of OpenRCT2's code is composed of units with more than 30 lines of code, which shows that this metric was not obeyed.
+
+**Writing Simple Units of Code**: by reducing the number of branching statements in our code, we can reduce its inherent complexity. If a unit has too many branching points, we can improve it the same way we solved the problem above: taking a few points to another unit. In OpenRCT2, around 50% of units have over 10 branching points. The worst offender in its codebase has 114 branching points (the surface_paint function in paint/map_element/surface.c). By refactoring the worst issues into smaller units, we can greatly improve the maintainability of the codebase.
 
 **Simple Units of Code** makes it easier to modify and test.
 
-**Code Written Once** avoids code and error multiplication. 
+**Code Written Once** avoids code and error multiplication.
 
-**Separate Concerns in Modules** identify and extract responsibilities of large modules to separate modules and hide implementation details behind interfaces. 
+**Separate Concerns in Modules** identify and extract responsibilities of large modules to separate modules and hide implementation details behind interfaces.
 
 **Architecture Components Balanced** Balancing the number and relative size of components makes it easier to locate code.
 
@@ -25,12 +33,7 @@ The ease or difficulty with which a software system can be modified is known as 
 
 **Write Clean Code** Clean code is more maintainable.
 
-**Codebase Small** maintainability slightly increases. 
-
- *Credits to <a href="https://bettercodehub.com/">Better Code Hub</a>*
-
-
-[![BCH compliance](https://bettercodehub.com/edge/badge/n42k/OpenRCT2)](https://bettercodehub.com)
+**Codebase Small** maintainability slightly increases.
 
 Discuss Software Maintanability using the SIG metrics here.
 
