@@ -6,6 +6,30 @@
 3. [Pull Request](#pull_request)
 
 ## Software Maintainability<a name="software_maintainability"></a>
+
+The ease or difficulty with which a software system can be modified is known as maintainability. The maintainability of a software system is determined by properties of its source code.
+
+**Short Units of Code** in order to be easier to understand.
+
+**Simple Units of Code** makes it easier to modify and test.
+
+**Code Written Once** avoids code and error multiplication. 
+
+**Separate Concerns in Modules** identify and extract responsibilities of large modules to separate modules and hide implementation details behind interfaces. 
+
+**Architecture Components Balanced** Balancing the number and relative size of components makes it easier to locate code.
+
+**Couple Architecture Components Loosely** components makes it easier to maintain components in isolation.
+
+**Automate Tests** Automating tests for your codebase makes development more predictable and less risky.
+
+**Write Clean Code** Clean code is more maintainable.
+
+**Codebase Small** maintainability slightly increases. 
+
+ *Credits to <a href="https://bettercodehub.com/">Better Code Hub</a>*
+
+
 [![BCH compliance](https://bettercodehub.com/edge/badge/n42k/OpenRCT2)](https://bettercodehub.com)
 
 Discuss Software Maintanability using the SIG metrics here.
