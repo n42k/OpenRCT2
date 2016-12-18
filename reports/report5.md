@@ -19,9 +19,9 @@ Amongst the 7 metrics it doesn't comply with, we can highlight a few of the most
 
 **Writing Simple Units of Code**: by reducing the number of branching statements in our code, we can reduce its inherent complexity. If a unit has too many branching points, we can improve it the same way we solved the problem above: taking a few points to another unit. In OpenRCT2, around 50% of units have over 10 branching points. The worst offender in its codebase has 114 branching points (the surface_paint function in paint/map_element/surface.c). By refactoring the worst issues into smaller units, we can greatly improve the maintainability of the codebase.
 
-**Write Code Once**: For better performance the code mustn't be copied. If a bug appears, the bug needs to be fixed in multiple places. This way, we must avoid duplication of code. According to SIG, we can reduce duplication by extracting shared code, either to a new unit or to a superclass. In OpenRCT2, there is a lot of modules that not obey this metric, but the worst is track_data.c (in ride/track_data.c).
+**Write Code Once**: Writing code once is relatively important for maintenance: if a bug appears, and the code is properly organized, there is only a need to fix it in one place. Thus, we must avoid duplication of code at all costs. According to SIG, we can reduce duplication by extracting shared code, either to a new unit or to a superclass. In OpenRCT2, there is a lot of modules that not obey this metric, but the worst is track_data.c (in ride/track_data.c).
 
-**Keep Unit Interfaces Small ** 
+**Keep Unit Interfaces Small **
 
 **Separate Concerns in Modules** identify and extract responsibilities of large modules to separate modules and hide implementation details behind interfaces.
 
