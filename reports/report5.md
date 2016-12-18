@@ -22,3 +22,11 @@ The choice of this feature was made based on the time we had and how challenging
 
 ## Pull Request<a name="pull_request"></a>
 Link the PR here.
+
+## Contributions
+All 4 group members have contributed evenly to the report:
+
+* João 'TUTAMKHAMON' Ferreira.
+* Jorge 'Jorge2210' Ferreira.
+* Pedro 'n42k' Amaro.
+* Pedro 'Oshnira' Lima.
