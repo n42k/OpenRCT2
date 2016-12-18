@@ -21,21 +21,14 @@ Amongst the 7 metrics it doesn't comply with, we can highlight a few of the most
 
 **Write Code Once**: For better performance the code mustn't be copied. If a bug appears, the bug needs to be fixed in multiple places. This way, we must avoid duplication of code. According to SIG, we can reduce duplication by extracting shared code, either to a new unit or to a superclass. In OpenRCT2, there is a lot of modules that not obey this metric, but the worst is track_data.c (in ride/track_data.c).
 
+**Keep Unit Interfaces Small ** 
+
 **Separate Concerns in Modules** identify and extract responsibilities of large modules to separate modules and hide implementation details behind interfaces.
-
-**Architecture Components Balanced** Balancing the number and relative size of components makes it easier to locate code.
-
-**Couple Architecture Components Loosely** components makes it easier to maintain components in isolation.
 
 **Automate Tests**: Automating tests for the codebase makes development more predictable and less risky. We must add tests for existing code every time we change it. According to SIG, in average, we must have at least 50% of the total lines of production code. In OpenRCT2, there are 250.498 of code lines, with only 2,338 of lines of test that makes only 1% test code percentage which shows that this metric fails.
 
-**Write Clean Code**: Clean code is more maintainable.
-
 **Keep Your Codebase Small** Keeping your codebase small improves maintainability, as it's less work to make structural changes in a smaller codebase and in order to prevent this, we must refactor existing code, so it has the same funcionality but with less code volume.
 The volume of OpenRCT2 is equivalent a 21.8 man-years, slightly above the 20 man-years mark cited by [bettercodehub](https://bettercodehub.com).
-
-
-
 
 Discuss Software Maintanability using the SIG metrics here.
 
