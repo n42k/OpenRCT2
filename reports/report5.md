@@ -16,6 +16,8 @@ The feature consistes in prevent the auto-save if the game is in pause and nothi
 
 For example, if in the game options is selected to save the game every 5 minutes, and at the minute 1, the game is paused (where nothing is being changed), the game is only saved automatically after 4th minute after resuming. In this way, the pause is not counted as time for the save and the time passed before the pause is counted to keep the logic of saving the game every 5 minutes.
 
+The choice of this feature was made based on the time we had and how challenging it would be for us to implement it.  
+
 **Briefly** describe how the feature you decided to evolve was identified, why did you decide to evolve that particular feature and how the parts in the source code that needed to be modified were located.
 
 ## Pull Request<a name="pull_request"></a>
