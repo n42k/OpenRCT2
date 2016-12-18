@@ -31,11 +31,10 @@ The 7 metrics which it doesn't obey are the following:
 
 ## Evolution Process<a name="evolution_process"></a>
 The feature that we decided to implement was identified by the OpenRCT2 collaborators themselves, and marked as a possible improvement in the program for those who want to implement it.
-The feature consists in prevent the auto-save feature if the game is paused and nothing has been done ingame. This way, we prevent the creation of multiple, equal, saves.
+The feature consists in preventing the game from autosaving if it is in paused state. The idea is to occupy less disk space by not allowing duplicate copies of savegames to exist.
+Seeing the time we had, we thought this would be our best choice.
 
-For example, if we selected in the game options to save the game every 5 minutes, and at the 1st minute, the game is paused, the game is only saved automatically after 4 minutes have passed since we resumed the game. This way, the pausing is not counted as time for the save and the time passed before the pause is counted to keep the logic of saving the game every 5 minutes.
-
-The choice of this feature was made based on the time we had and how challenging it would be for us to implement it.
+Firstly, to understand the autosave mechanics of the game we decided to search the code for keywords like "autosave" and ended up finding the funcion scenario_autosave_check(), which was exactly what we wanted. After a quick examination we found it to be easy to change the function so that time since last autosave only increased when game was unpaused, adding the intended functionality. For example, if in the options menu it was selected to save the game every 5 minutes, and after 1 minute of playing we paused the game, the game would not save until we unpaused the game and 4 more minutes passed. 
 
 ## Pull Request<a name="pull_request"></a>
 The pull request can be found in the following link: https://github.com/OpenRCT2/OpenRCT2/pull/4892 .
