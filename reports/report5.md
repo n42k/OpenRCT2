@@ -48,7 +48,7 @@ The choice of this feature was made based on the time we had and how challenging
 **Briefly** describe how the feature you decided to evolve was identified, why did you decide to evolve that particular feature and how the parts in the source code that needed to be modified were located.
 
 ## Pull Request<a name="pull_request"></a>
-Link the PR here.
+The pull request can be found in the following link: https://github.com/OpenRCT2/OpenRCT2/pull/4892 .
 
 ## Contributions
 All 4 group members have contributed evenly to the report:
