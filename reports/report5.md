@@ -34,7 +34,9 @@ The feature that we decided to implement was identified by the OpenRCT2 collabor
 The feature consists in preventing the game from autosaving if it is in paused state. The idea is to occupy less disk space by not allowing duplicate copies of savegames to exist.
 Seeing the time we had, we thought this would be our best choice.
 
-Firstly, to understand the autosave mechanics of the game we decided to search the code for keywords like "autosave" and ended up finding the funcion scenario_autosave_check(), which was exactly what we wanted. After a quick examination we found it to be easy to change the function so that time since last autosave only increased when game was unpaused, adding the intended functionality. For example, if in the options menu it was selected to save the game every 5 minutes, and after 1 minute of playing we paused the game, the game would not save until we unpaused the game and 4 more minutes passed. 
+Firstly, to understand the autosave mechanics of the game we decided to search the code for keywords like "autosave" and ended up finding the funcion scenario_autosave_check(), which was exactly what we wanted. After a quick examination we found it to be easy to change the function so that time since last autosave only increased when game was unpaused, adding the intended functionality. For example, if in the options menu it was selected to save the game every 5 minutes, and after 1 minute of playing we paused the game, the game would not save until we unpaused the game and 4 more minutes passed.
+
+This was easy to do using already localy accessible functions like game_is_paused() and SDL_GetTicks() to slightly change the autosave logic and achieve what we wanted.
 
 ## Pull Request<a name="pull_request"></a>
 The pull request can be found in the following link: https://github.com/OpenRCT2/OpenRCT2/pull/4892 .
