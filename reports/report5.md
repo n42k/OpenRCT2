@@ -47,3 +47,6 @@ All 4 group members have contributed evenly to the report:
 * Jorge 'Jorge2210' Ferreira.
 * Pedro 'n42k' Amaro.
 * Pedro 'Oshnira' Lima.
+
+## Bibliography
+[1] “Better Code Hub” bettercodehub.com. Accessed at 5 Dec. 2016.
